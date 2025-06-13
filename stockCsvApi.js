@@ -4,7 +4,7 @@
  * Charge et parse SPASSO_STOCKWEB_SP.csv (séparateur `;`, header inclus) 
  * Colonnes attendues : REF;DESIGNATION;COLOR;SIZE;QUANTITY
  */
-const CSV_URL = "/api/proxyStockCsv";
+const CSV_URL = "/SPASSO_STOCKWEB_SP.csv";
 
 let cache = null
 
