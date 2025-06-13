@@ -1,29 +1,42 @@
 // src/api/stockCsvApi.js
-import Papa from 'papaparse';
 
-const CSV_URL = 'https://files.karibanbrands.com/documents/SPASSO_STOCKWEB_SP.csv';
+/** 
+ * Service natif pour charger et parser le CSV SPASSO_STOCKWEB_SP.csv 
+ * Le CSV utilise le séparateur `;` avec en‐tête :
+ * REF;DESIGNATION;COLOR;SIZE;QUANTITY
+ */
 
-let _cache = null;
+const CSV_URL =
+  'https://files.karibanbrands.com/documents/SPASSO_STOCKWEB_SP.csv';
+
+let cache = null;
 
 /** Charge et parse le CSV une seule fois */
 async function loadCsv() {
-  if (_cache) return _cache;
+  if (cache) return cache;
+
   const res  = await fetch(CSV_URL);
   const text = await res.text();
-  const { data } = Papa.parse(text, { header: true, skipEmptyLines: true });
-  // On normalise le type : 
-  _cache = data.map(row => ({
-    ref_catalog: row.ref_catalog,
-    color:       row.color,
-    size:        row.size,
-    stock:       parseInt(row.stock, 10)
-  }));
-  return _cache;
-}
 
-/** Renvoie la liste complète de lignes */
-export async function getAllRows() {
-  return await loadCsv();
+  // Découpage en lignes non-vides
+  const lines = text.split(/\r?\n/).filter(line => line.trim() !== '');
+  
+  // En-tête
+  const [header, ...rows] = lines;
+  
+  // Pour chaque ligne, on split sur `;`
+  cache = rows.map(line => {
+    const [ref, designation, color, size, quantity] = line.split(';');
+    return {
+      ref_catalog: ref,
+      designation: designation,
+      color:       color,
+      size:        size,
+      stock:       parseInt(quantity, 10)
+    };
+  });
+
+  return cache;
 }
 
 /** Toutes les références uniques */
@@ -36,11 +49,15 @@ export async function getUniqueRefs() {
 export async function getColorsFor(ref) {
   const rows = await loadCsv();
   return Array.from(
-    new Set(rows.filter(r => r.ref_catalog === ref).map(r => r.color))
+    new Set(
+      rows
+        .filter(r => r.ref_catalog === ref)
+        .map(r => r.color)
+    )
   );
 }
 
-/** Tailles dispo pour ref+color */
+/** Tailles disponibles pour une référence + couleur */
 export async function getSizesFor(ref, color) {
   const rows = await loadCsv();
   return Array.from(
@@ -52,7 +69,7 @@ export async function getSizesFor(ref, color) {
   );
 }
 
-/** Stock pour une combinaison exacte */
+/** Stock pour une combinaison exacte ref + color + size */
 export async function getStock(ref, color, size) {
   const rows = await loadCsv();
   const found = rows.find(
@@ -63,4 +80,3 @@ export async function getStock(ref, color, size) {
   );
   return found ? found.stock : 0;
 }
-
