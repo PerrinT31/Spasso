@@ -6,7 +6,7 @@ import {
   getColorsFor,
   getSizesFor,
   getStock
-} from "./api/stockCsvApi"
+} from "./stockCsvApi.js"
 
 export default function App() {
   const [refs, setRefs]       = useState([])
