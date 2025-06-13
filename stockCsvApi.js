@@ -15,7 +15,7 @@ async function loadCsv() {
 
   cache = rows.map((line) => {
     // Passez au séparateur ',', pas ';'
-    const [ref, , color, size, qty] = line.split(",");
+    const [ref, , color, size, qty] = line.split(",")
     return {
       ref_catalog: ref,
       color:       color,
