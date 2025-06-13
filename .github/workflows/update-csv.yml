@@ -1,0 +1,40 @@
+name: 🔄 Mise à jour quotidienne du CSV Spasso
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # tous les jours à 02:00 UTC
+
+jobs:
+  update-csv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✅ Checkout du dépôt
+        uses: actions/checkout@v3
+        with:
+          # Autorise l'utilisation du token pour push
+          persist-credentials: true
+
+      - name: 📥 Télécharger le CSV distant
+        run: |
+          curl -sSfL \
+            https://files.karibanbrands.com/documents/SPASSO_STOCKWEB_SP.csv \
+            -o public/SPASSO_STOCKWEB_SP.csv
+
+      - name: 🔍 Vérifier s'il y a un changement
+        run: |
+          git diff --exit-code public/SPASSO_STOCKWEB_SP.csv || echo "Changements détectés"
+
+      - name: 💾 Commit & push (si modifié)
+        run: |
+          # Configurez l’utilisateur GitHub Actions
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          # Si le fichier a changé, on commit & push
+          if ! git diff --quiet public/SPASSO_STOCKWEB_SP.csv; then
+            git add public/SPASSO_STOCKWEB_SP.csv
+            git commit -m "🔄 Mise à jour quotidienne du CSV Spasso"
+            git push
+          else
+            echo "Aucun changement, rien à push."
+          fi
