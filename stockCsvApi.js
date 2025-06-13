@@ -6,21 +6,26 @@ let cache = null;
 async function loadCsv() {
   if (cache) return cache;
 
-  const text = await (await fetch(CSV_URL)).text();
+  const text  = await (await fetch(CSV_URL)).text();
   const lines = text
     .split(/\r?\n/)
     .filter((l) => l.trim() !== "");
-  // On saute la ligne d'en-tête
-  const [, ...rows] = lines;
 
-  cache = rows.map((line) => {
-    // Passez au séparateur ',', pas ';'
-    const [ref, , color, size, qty] = line.split(",")
+  // 1️⃣ Parser l’en-tête pour trouver les bons indices
+  const headerCols = lines[0].split(";");
+  const idxRef     = headerCols.indexOf("REF");
+  const idxColor   = headerCols.indexOf("COLOR");
+  const idxSize    = headerCols.indexOf("SIZE");
+  const idxStock   = headerCols.indexOf("QUANTITY");
+
+  // 2️⃣ Pour chaque ligne (en sautant l’en-tête), split & extraire
+  cache = lines.slice(1).map((line) => {
+    const cols = line.split(";");
     return {
-      ref_catalog: ref,
-      color:       color,
-      size:        size,
-      stock:       parseInt(qty, 10)
+      ref_catalog: cols[idxRef]?.trim()   || "",
+      color:       cols[idxColor]?.trim() || "",
+      size:        cols[idxSize]?.trim()  || "",
+      stock:       parseInt(cols[idxStock] || "0", 10)
     };
   });
 
@@ -29,23 +34,32 @@ async function loadCsv() {
 
 export async function getUniqueRefs() {
   const rows = await loadCsv();
+  // On récupère UNIQUEMENT la colonne ref_catalog
   return Array.from(new Set(rows.map((r) => r.ref_catalog)));
 }
 
 export async function getColorsFor(ref) {
   const rows = await loadCsv();
-  return Array.from(new Set(
-    rows.filter((r) => r.ref_catalog === ref).map((r) => r.color)
-  ));
+  return Array.from(
+    new Set(
+      rows
+        .filter((r) => r.ref_catalog === ref)
+        .map((r) => r.color)
+        .filter(Boolean)
+    )
+  );
 }
 
 export async function getSizesFor(ref, color) {
   const rows = await loadCsv();
-  return Array.from(new Set(
-    rows
-      .filter((r) => r.ref_catalog === ref && r.color === color)
-      .map((r) => r.size)
-  ));
+  return Array.from(
+    new Set(
+      rows
+        .filter((r) => r.ref_catalog === ref && r.color === color)
+        .map((r) => r.size)
+        .filter(Boolean)
+    )
+  );
 }
 
 export async function getStock(ref, color, size) {
