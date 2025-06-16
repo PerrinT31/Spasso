@@ -63,7 +63,7 @@ export default function App() {
     <div style={{ maxWidth: 480, margin: "2rem auto", padding: "1rem", textAlign: "center" }}>
       {/* Votre logo Spasso en haut */}
       <img
-        src="/spasso-logo.svg" alt="Spasso logo" … />
+        src="SPASSO_LOGO_PRINCIPAL.png"
         alt="Spasso logo"
         style={{ width: 120, marginBottom: 16 }}
       />
