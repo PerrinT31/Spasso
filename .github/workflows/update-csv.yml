@@ -8,8 +8,8 @@ permissions:
 
 on:
   schedule:
-    # Exécution chaque jour à 08:30 UTC
-    - cron: '10 8 * * *'
+    # Exécution chaque jour à 02:00 UTC
+    - cron: '0 2 * * *'
   workflow_dispatch:  # Permet de lancer manuellement si besoin
 
 jobs:
