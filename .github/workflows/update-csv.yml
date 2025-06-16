@@ -1,18 +1,26 @@
+# .github/workflows/update-csv.yml
+
 name: 🔄 Mise à jour quotidienne du CSV Spasso
+
+# Donner à GITHUB_TOKEN le droit d'écrire dans le repo
+permissions:
+  contents: write
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # tous les jours à 02:00 UTC
+    # Exécution chaque jour à 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Permet de lancer manuellement si besoin
 
 jobs:
   update-csv:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ✅ Checkout du dépôt
+      - name: ✅ Récupérer le code
         uses: actions/checkout@v3
         with:
-          # Autorise l'utilisation du token pour push
+          # Autorise le push via GITHUB_TOKEN
           persist-credentials: true
 
       - name: 📥 Télécharger le CSV distant
@@ -21,20 +29,20 @@ jobs:
             https://files.karibanbrands.com/documents/SPASSO_STOCKWEB_SP.csv \
             -o public/SPASSO_STOCKWEB_SP.csv
 
-      - name: 🔍 Vérifier s'il y a un changement
+      - name: 🔍 Vérifier s’il y a eu un changement
         run: |
           git diff --exit-code public/SPASSO_STOCKWEB_SP.csv || echo "Changements détectés"
 
-      - name: 💾 Commit & push (si modifié)
+      - name: 💾 Commit & push si modifié
         run: |
-          # Configurez l’utilisateur GitHub Actions
+          # Configurer l’utilisateur pour Git
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          # Si le fichier a changé, on commit & push
+          # Commit et push uniquement si le CSV a changé
           if ! git diff --quiet public/SPASSO_STOCKWEB_SP.csv; then
             git add public/SPASSO_STOCKWEB_SP.csv
             git commit -m "🔄 Mise à jour quotidienne du CSV Spasso"
             git push
           else
-            echo "Aucun changement, rien à push."
+            echo "Aucun changement détecté — pas de commit."
           fi
