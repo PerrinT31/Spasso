@@ -1,5 +1,4 @@
 // App.jsx
-
 import React, { useState, useEffect } from "react";
 import {
   getUniqueRefs,
@@ -16,12 +15,10 @@ export default function App() {
   const [selectedColor, setColor] = useState("");
   const [stockBySize, setStockBySize] = useState({});
 
-  // 1. Charger les références au montage
   useEffect(() => {
     getUniqueRefs().then(setRefs);
   }, []);
 
-  // 2. À la sélection d’une référence, charger les couleurs
   useEffect(() => {
     if (!selectedRef) {
       setColors([]); setColor("");
@@ -35,7 +32,6 @@ export default function App() {
     });
   }, [selectedRef]);
 
-  // 3. À la sélection d’une couleur, charger les tailles + stocks
   useEffect(() => {
     if (!selectedColor) {
       setSizes([]); setStockBySize({});
@@ -59,26 +55,36 @@ export default function App() {
   }, [selectedColor, selectedRef]);
 
   return (
-    <div style={{
-      maxWidth: 480,
-      margin: "2rem auto",
-      padding: "1rem",
-      textAlign: "center"
-    }}>
-      {/* Logo agrandi */}
+    <div
+      style={{
+        maxWidth: 480,
+        margin: "2rem auto",
+        padding: "1rem",
+        textAlign: "center"
+      }}
+    >
+      {/* Logo */}
       <img
         src="/SPASSO_LOGO_PRINCIPAL.png"
         alt="Spasso logo"
         style={{ width: 200, marginBottom: 24 }}
       />
 
-      {/* Titre centré sans préfixe */}
-      <h1 style={{ margin: 0, fontSize: "2rem" }}>
+      {/* Titre en Montserrat Alternate Bold 50pt */}
+      <h1
+        style={{
+          margin: 0,
+          fontFamily: "'Montserrat Alternates', sans-serif",
+          fontWeight: 700,
+          fontSize: "50pt",
+          color: "#fff"
+        }}
+      >
         📦 Stock Checker
       </h1>
 
-      {/* Sélecteurs Reference + Color */}
-      <div style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
+      {/* Sélecteurs */}
+      <div style={{ display: "grid", gap: "1rem", marginTop: "1.5rem" }}>
         <select
           value={selectedRef}
           onChange={e => setRef(e.target.value)}
@@ -101,38 +107,34 @@ export default function App() {
         </select>
       </div>
 
-      {/* Tableau de tailles + stock */}
+      {/* Visuel sous les sélecteurs */}
+      <div style={{ marginTop: "1.5rem" }}>
+        <img
+          src="/collection-lin.jpg"
+          alt="Collection LIN"
+          style={{ width: "100%", borderRadius: 8 }}
+        />
+      </div>
+
+      {/* Tableau résultats (se pousse vers le bas) */}
       {sizes.length > 0 && (
-        <table style={{
-          width: "100%",
-          marginTop: 20,
-          borderCollapse: "collapse",
-          textAlign: "left"
-        }}>
+        <table style={{ width: "100%", marginTop: 20, borderCollapse: "collapse" }}>
           <thead>
             <tr>
-              <th style={{
-                borderBottom: "1px solid #ccc",
-                padding: "8px 0"
-              }}>Size</th>
-              <th style={{
-                borderBottom: "1px solid #ccc",
-                padding: "8px 0",
-                textAlign: "right"
-              }}>Available Stock</th>
+              <th style={{ borderBottom: "2px solid #ccc", padding: "8px", textAlign: "left" }}>
+                Size
+              </th>
+              <th style={{ borderBottom: "2px solid #ccc", padding: "8px", textAlign: "right" }}>
+                Available Stock
+              </th>
             </tr>
           </thead>
           <tbody>
             {sizes.map(size => (
               <tr key={size}>
-                <td style={{ padding: "6px 0" }}>{size}</td>
-                <td style={{
-                  padding: "6px 0",
-                  textAlign: "right"
-                }}>
-                  {stockBySize[size] > 0
-                    ? stockBySize[size]
-                    : "Out of stock"}
+                <td style={{ padding: "6px 8px" }}>{size}</td>
+                <td style={{ padding: "6px 8px", textAlign: "right" }}>
+                  {stockBySize[size] > 0 ? stockBySize[size] : "Out of stock"}
                 </td>
               </tr>
             ))}
