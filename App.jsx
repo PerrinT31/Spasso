@@ -73,7 +73,7 @@ export default function App() {
         margin: 0,
         fontFamily: "'Montserrat Alternates', sans-serif",
         fontWeight: 700,
-        fontSize: "50pt",
+        fontSize: "25pt",
         color: "#000"
       }}>
         📦 Stock Checker
