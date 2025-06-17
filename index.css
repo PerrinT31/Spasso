@@ -12,7 +12,7 @@ body.app-root {
 select {
   font-family: "Jost", sans-serif;
   font-weight: 700;
-  font-size: 18pt;     /* <= passé de 24pt à 18pt */
+  font-size: 12pt;     /* <= passé de 24pt à 18pt */
   width: 50%;
   margin: 0.5rem auto; /* un peu d’espacement vertical */
   display: block;
