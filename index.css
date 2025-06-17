@@ -8,20 +8,23 @@ body.app-root {
   font-family: "Jost", sans-serif;
 }
 
-/* Applique la police et la taille sur les sélecteurs */
+/* Sélecteurs réduits à 50 % et centrés */
 select {
   font-family: "Jost", sans-serif;
   font-weight: 700;
-  font-size: 24pt;
-  width: 50%;            /* moitié de la largeur du conteneur */
-  margin: 0 auto;        /* centré horizontalement */
+  font-size: 18pt;     /* <= passé de 24pt à 18pt */
+  width: 50%;
+  margin: 0.5rem auto; /* un peu d’espacement vertical */
   display: block;
-}
-
-/* Le tableau reste inchangé, avec un fond blanc */
-table {
+  padding: 0.25rem;    /* pour conserver du confort */
+  border-radius: 4px;
+  border: 1px solid #888;
   background: #fff;
   color: #000;
-  border-radius: 4px;
-  overflow: hidden;
+  text-align: center;  /* centre le texte à l’intérieur */
+}
+
+/* Placeholder (Firefox & Webkit) */
+select option:first-child {
+  color: #666; /* teinte plus douce pour le placeholder */
 }
