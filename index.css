@@ -1,0 +1,22 @@
+/* index.css */
+
+body.app-root {
+  margin: 0;
+  padding: 0;
+  background-color: #292F33; /* Pantone C 446 C */
+  color: #fff;
+  font-family: "Jost", sans-serif;
+}
+
+select {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 24pt;
+}
+
+table {
+  background: #fff;
+  color: #000;
+  border-radius: 4px;
+  overflow: hidden;
+}
