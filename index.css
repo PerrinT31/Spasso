@@ -3,17 +3,22 @@
 body.app-root {
   margin: 0;
   padding: 0;
-  background-color: #292F33; /* Pantone C 446 C */
-  color: #fff;
+  background-color: #c6bfb2;   /* Pantone C 446C modifié */
+  color: #000;
   font-family: "Jost", sans-serif;
 }
 
+/* Applique la police et la taille sur les sélecteurs */
 select {
   font-family: "Jost", sans-serif;
   font-weight: 700;
   font-size: 24pt;
+  width: 50%;            /* moitié de la largeur du conteneur */
+  margin: 0 auto;        /* centré horizontalement */
+  display: block;
 }
 
+/* Le tableau reste inchangé, avec un fond blanc */
 table {
   background: #fff;
   color: #000;
