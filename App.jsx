@@ -18,12 +18,10 @@ export default function App() {
   const [stockBySize, setStockBySize]     = useState({});
   const [reapproBySize, setReapproBySize] = useState({});
 
-  // 1. Charger les références
   useEffect(() => {
     getUniqueRefs().then(setRefs);
   }, []);
 
-  // 2. Charger les couleurs
   useEffect(() => {
     if (!selRef) {
       setColors([]); setSelColor("");
@@ -37,7 +35,6 @@ export default function App() {
     });
   }, [selRef]);
 
-  // 3. Charger tailles, stock et réappro
   useEffect(() => {
     if (!selColor) {
       setSizes([]); setStockBySize({}); setReapproBySize({});
@@ -53,7 +50,7 @@ export default function App() {
           ]).then(([stock, reappro]) => ({ size, stock, reappro }))
         )
       ).then(results => {
-        const s={}, r={};
+        const s = {}, r = {};
         results.forEach(({ size, stock, reappro }) => {
           s[size] = stock;
           r[size] = reappro;
@@ -67,28 +64,38 @@ export default function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <img src="/SPASSO_LOGO_PRINCIPAL.png" alt="Logo Spasso" className="app-logo" />
-        <h1 className="app-title">Spasso Stock Checker</h1>
+        <img
+          src="/SPASSO_LOGO_PRINCIPAL.png"
+          alt="Spasso logo"
+          className="app-logo"
+        />
+        <h1 className="app-title">Stock Checker</h1>
       </header>
 
       <div className="filters">
         <div className="filter">
-          <label>Référence</label>
-          <select value={selRef} onChange={e => setSelRef(e.target.value)}>
-            <option value="">-- Choisir --</option>
-            {refs.map(r => <option key={r} value={r}>{r}</option>)}
+          <label>Reference</label>
+          <select
+            value={selRef}
+            onChange={e => setSelRef(e.target.value)}
+          >
+            <option value="">-- Select --</option>
+            {refs.map(r => (
+              <option key={r} value={r}>{r}</option>
+            ))}
           </select>
         </div>
-
         <div className="filter">
-          <label>Couleur</label>
+          <label>Color</label>
           <select
             value={selColor}
             onChange={e => setSelColor(e.target.value)}
             disabled={!colors.length}
           >
-            <option value="">-- Choisir --</option>
-            {colors.map(c => <option key={c} value={c}>{c}</option>)}
+            <option value="">-- Select --</option>
+            {colors.map(c => (
+              <option key={c} value={c}>{c}</option>
+            ))}
           </select>
         </div>
       </div>
@@ -101,10 +108,10 @@ export default function App() {
         <table className="results-table">
           <thead>
             <tr>
-              <th>Taille</th>
-              <th>Stock dispo</th>
-              <th>Réappro (date)</th>
-              <th>Qté à venir</th>
+              <th>Size</th>
+              <th>Stock</th>
+              <th>Replen (Date)</th>
+              <th>Qty Incoming</th>
             </tr>
           </thead>
           <tbody>
@@ -112,7 +119,7 @@ export default function App() {
               <tr key={size}>
                 <td>{size}</td>
                 <td className="right">
-                  {stockBySize[size] > 0 ? stockBySize[size] : "Rupture"}
+                  {stockBySize[size] > 0 ? stockBySize[size] : "Out of stock"}
                 </td>
                 <td className="center">
                   {reapproBySize[size]?.dateToRec ?? "-"}
