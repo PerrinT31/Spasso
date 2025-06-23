@@ -62,15 +62,15 @@ export default function App() {
   }, [selRef, selColor]);
 
   return (
-    <div className="app-container">
-      <header className="app-header">
-        <img
-          src="/SPASSO_LOGO_PRINCIPAL.png"
-          alt="Spasso logo"
-          className="app-logo"
-        />
-        <h1 className="app-title">Stock Checker</h1>
-      </header>
+  <div className="app-container">
+    <header className="app-header">
+      <img
+        src="/SPASSO_LOGO_PRINCIPAL.png"
+        alt="Spasso logo"
+        className="app-logo"
+      />
+      <h1 className="app-title">Stock Checker</h1>
+    </header>
 
       <div className="filters">
         <div className="filter">
