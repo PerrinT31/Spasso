@@ -1,4 +1,5 @@
 // App.jsx
+
 import React, { useState, useEffect } from "react";
 import {
   getUniqueRefs,
@@ -10,74 +11,88 @@ import { getReappro } from "./reapproCsvApi.js";
 import "./index.css";
 
 export default function App() {
+  // États pour filtres et données
   const [refs, setRefs]                   = useState([]);
   const [colors, setColors]               = useState([]);
   const [sizes, setSizes]                 = useState([]);
-  const [selRef, setSelRef]               = useState("");
-  const [selColor, setSelColor]           = useState("");
+  const [selectedRef, setSelectedRef]     = useState("");
+  const [selectedColor, setSelectedColor] = useState("");
   const [stockBySize, setStockBySize]     = useState({});
   const [reapproBySize, setReapproBySize] = useState({});
 
+  // 1️⃣ Charger la liste des références au montage
   useEffect(() => {
     getUniqueRefs().then(setRefs);
   }, []);
 
+  // 2️⃣ Quand on choisit une référence, on recharge les couleurs
   useEffect(() => {
-    if (!selRef) {
-      setColors([]); setSelColor("");
-      setSizes([]); setStockBySize({}); setReapproBySize({});
+    if (!selectedRef) {
+      setColors([]);
+      setSelectedColor("");
+      setSizes([]);
+      setStockBySize({});
+      setReapproBySize({});
       return;
     }
-    getColorsFor(selRef).then(cols => {
+    getColorsFor(selectedRef).then(cols => {
       setColors(cols);
-      setSelColor("");
-      setSizes([]); setStockBySize({}); setReapproBySize({});
+      setSelectedColor("");
+      setSizes([]);
+      setStockBySize({});
+      setReapproBySize({});
     });
-  }, [selRef]);
+  }, [selectedRef]);
 
+  // 3️⃣ Quand on choisit une couleur, on recharge tailles + stocks + réappro
   useEffect(() => {
-    if (!selColor) {
-      setSizes([]); setStockBySize({}); setReapproBySize({});
+    if (!selectedColor) {
+      setSizes([]);
+      setStockBySize({});
+      setReapproBySize({});
       return;
     }
-    getSizesFor(selRef, selColor).then(szs => {
+    getSizesFor(selectedRef, selectedColor).then(szs => {
       setSizes(szs);
       Promise.all(
         szs.map(size =>
           Promise.all([
-            getStock(selRef, selColor, size),
-            getReappro(selRef, selColor, size)
+            getStock(selectedRef, selectedColor, size),
+            getReappro(selectedRef, selectedColor, size)
           ]).then(([stock, reappro]) => ({ size, stock, reappro }))
         )
       ).then(results => {
-        const s = {}, r = {};
+        const newStock    = {};
+        const newReappro   = {};
         results.forEach(({ size, stock, reappro }) => {
-          s[size] = stock;
-          r[size] = reappro;
+          newStock[size]  = stock;
+          newReappro[size] = reappro;
         });
-        setStockBySize(s);
-        setReapproBySize(r);
+        setStockBySize(newStock);
+        setReapproBySize(newReappro);
       });
     });
-  }, [selRef, selColor]);
+  }, [selectedRef, selectedColor]);
 
   return (
-  <div className="app-container">
-    <header className="app-header">
-      <img
-        src="/SPASSO_LOGO_PRINCIPAL.png"
-        alt="Spasso logo"
-        className="app-logo"
-      />
-      <h1 className="app-title">Stock Checker</h1>
-    </header>
+    <div className="app-container">
+      {/* En-tête : logo + titre */}
+      <header className="app-header">
+        <img
+          src="/SPASSO_LOGO_PRINCIPAL.png"
+          alt="Logo Spasso"
+          className="app-logo"
+        />
+        <h1 className="app-title">Stock Checker</h1>
+      </header>
 
+      {/* Filtres */}
       <div className="filters">
         <div className="filter">
           <label>Reference</label>
           <select
-            value={selRef}
-            onChange={e => setSelRef(e.target.value)}
+            value={selectedRef}
+            onChange={e => setSelectedRef(e.target.value)}
           >
             <option value="">-- Select --</option>
             {refs.map(r => (
@@ -88,8 +103,8 @@ export default function App() {
         <div className="filter">
           <label>Color</label>
           <select
-            value={selColor}
-            onChange={e => setSelColor(e.target.value)}
+            value={selectedColor}
+            onChange={e => setSelectedColor(e.target.value)}
             disabled={!colors.length}
           >
             <option value="">-- Select --</option>
@@ -100,10 +115,7 @@ export default function App() {
         </div>
       </div>
 
-      <div className="hero-image">
-        <img src="/collection-lin.jpg" alt="Collection LIN" />
-      </div>
-
+      {/* ❶ Tableau des résultats */}
       {sizes.length > 0 && (
         <table className="results-table">
           <thead>
@@ -132,6 +144,11 @@ export default function App() {
           </tbody>
         </table>
       )}
+
+      {/* ❷ Visuel sous le tableau */}
+      <div className="hero-image">
+        <img src="/collection-lin.jpg" alt="Collection LIN" />
+      </div>
     </div>
   );
 }
