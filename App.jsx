@@ -110,7 +110,7 @@ export default function App() {
             <tr>
               <th>Size</th>
               <th>Stock</th>
-              <th>Replen (Date)</th>
+              <th>Replenishment (Date)</th>
               <th>Qty Incoming</th>
             </tr>
           </thead>
