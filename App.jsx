@@ -11,7 +11,6 @@ import { getReappro } from "./reapproCsvApi.js";
 import "./index.css";
 
 export default function App() {
-  // États pour filtres et données
   const [refs, setRefs]                   = useState([]);
   const [colors, setColors]               = useState([]);
   const [sizes, setSizes]                 = useState([]);
@@ -20,12 +19,12 @@ export default function App() {
   const [stockBySize, setStockBySize]     = useState({});
   const [reapproBySize, setReapproBySize] = useState({});
 
-  // 1️⃣ Charger la liste des références au montage
+  // Charger les références
   useEffect(() => {
     getUniqueRefs().then(setRefs);
   }, []);
 
-  // 2️⃣ Quand on choisit une référence, on recharge les couleurs
+  // Quand on change de référence, recharger les couleurs
   useEffect(() => {
     if (!selectedRef) {
       setColors([]);
@@ -44,7 +43,7 @@ export default function App() {
     });
   }, [selectedRef]);
 
-  // 3️⃣ Quand on choisit une couleur, on recharge tailles + stocks + réappro
+  // Quand on change de couleur, recharger tailles + stock + réappro
   useEffect(() => {
     if (!selectedColor) {
       setSizes([]);
@@ -59,24 +58,27 @@ export default function App() {
           Promise.all([
             getStock(selectedRef, selectedColor, size),
             getReappro(selectedRef, selectedColor, size)
-          ]).then(([stock, reappro]) => ({ size, stock, reappro }))
+          ]).then(([stock, reappro]) => ({
+            size,
+            stock,
+            reappro
+          }))
         )
       ).then(results => {
-        const newStock    = {};
-        const newReappro   = {};
+        const s = {}, r = {};
         results.forEach(({ size, stock, reappro }) => {
-          newStock[size]  = stock;
-          newReappro[size] = reappro;
+          s[size] = stock;
+          r[size] = reappro;
         });
-        setStockBySize(newStock);
-        setReapproBySize(newReappro);
+        setStockBySize(s);
+        setReapproBySize(r);
       });
     });
   }, [selectedRef, selectedColor]);
 
   return (
     <div className="app-container">
-      {/* En-tête : logo + titre */}
+      {/* En-tête */}
       <header className="app-header">
         <img
           src="/SPASSO_LOGO_PRINCIPAL.png"
@@ -131,7 +133,9 @@ export default function App() {
               <tr key={size}>
                 <td>{size}</td>
                 <td className="right">
-                  {stockBySize[size] > 0 ? stockBySize[size] : "Out of stock"}
+                  {stockBySize[size] > 0
+                    ? stockBySize[size]
+                    : "Out of stock"}
                 </td>
                 <td className="center">
                   {reapproBySize[size]?.dateToRec ?? "-"}
@@ -145,7 +149,10 @@ export default function App() {
         </table>
       )}
 
-      {/* ❷ Visuel sous le tableau */}
+      {/* ❷ Petit espace réactif */}
+      <div className="spacer" />
+
+      {/* ❸ Visuel sous le tableau */}
       <div className="hero-image">
         <img src="/collection-lin.jpg" alt="Collection LIN" />
       </div>
