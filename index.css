@@ -22,24 +22,17 @@ html, body {
 /* 3. En-tête : logo + titre */
 .app-header {
   display: flex;
-  flex-direction: column;     /* passe en colonne */
-  align-items: center;        /* centrer logo & titre */
-  gap: 0.5rem;                /* petit espace entre logo et titre */
+  align-items: center;
+  gap: 1rem;
   margin-bottom: 1.5rem;
 }
-
 .app-logo {
-  height: 80px;               /* un peu plus grand si vous voulez */
+  height: 60px;
   width: auto;
 }
-
 .app-title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
-  font-size: 48px;
-  color: #000;
-  margin: 0;                  /* nul pour coller au logo */
-} font-weight: 700;
   font-size: 48px;
   color: #000;
 }
