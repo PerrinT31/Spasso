@@ -20,22 +20,32 @@ html, body {
 }
 
 /* 3. En-tête : logo + titre */
+/* index.css */
+
+/* ... avant ... */
+
+/* 3. En-tête : logo AU-DESSUS du titre */
 .app-header {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;     /* passe en colonne */
+  align-items: center;        /* centrer logo & titre */
+  gap: 0.5rem;                /* petit espace entre logo et titre */
   margin-bottom: 1.5rem;
 }
+
 .app-logo {
-  height: 60px;
+  height: 80px;               /* un peu plus grand si vous voulez */
   width: auto;
 }
+
 .app-title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-size: 48px;
   color: #000;
+  margin: 0;                  /* nul pour coller au logo */
 }
+
 
 /* 4. Filtres */
 .filters {
