@@ -1,5 +1,4 @@
 // App.jsx
-
 import React, { useState, useEffect } from "react";
 import {
   getUniqueRefs,
@@ -11,128 +10,114 @@ import { getReappro } from "./reapproCsvApi.js";
 import "./index.css";
 
 export default function App() {
-  // États pour les filtres et les données
-  const [refs, setRefs]                     = useState([]);
-  const [colors, setColors]                 = useState([]);
-  const [sizes, setSizes]                   = useState([]);
-  const [selectedRef, setSelectedRef]       = useState("");
-  const [selectedColor, setSelectedColor]   = useState("");
-  const [stockBySize, setStockBySize]       = useState({});
-  const [reapproBySize, setReapproBySize]   = useState({});
+  const [refs, setRefs]                   = useState([]);
+  const [colors, setColors]               = useState([]);
+  const [sizes, setSizes]                 = useState([]);
+  const [selRef, setSelRef]               = useState("");
+  const [selColor, setSelColor]           = useState("");
+  const [stockBySize, setStockBySize]     = useState({});
+  const [reapproBySize, setReapproBySize] = useState({});
 
-  // Au montage, on charge la liste des références
+  // 1. Charger les références
   useEffect(() => {
     getUniqueRefs().then(setRefs);
   }, []);
 
-  // Quand on change de référence, on recharge les couleurs
+  // 2. Charger les couleurs
   useEffect(() => {
-    if (!selectedRef) {
-      setColors([]); setSelectedColor("");
+    if (!selRef) {
+      setColors([]); setSelColor("");
       setSizes([]); setStockBySize({}); setReapproBySize({});
       return;
     }
-    getColorsFor(selectedRef).then(cols => {
+    getColorsFor(selRef).then(cols => {
       setColors(cols);
-      setSelectedColor("");
+      setSelColor("");
       setSizes([]); setStockBySize({}); setReapproBySize({});
     });
-  }, [selectedRef]);
+  }, [selRef]);
 
-  // Quand on change de couleur, on recharge les tailles, les stocks et les réappros
+  // 3. Charger tailles, stock et réappro
   useEffect(() => {
-    if (!selectedColor) {
+    if (!selColor) {
       setSizes([]); setStockBySize({}); setReapproBySize({});
       return;
     }
-    getSizesFor(selectedRef, selectedColor).then(szs => {
+    getSizesFor(selRef, selColor).then(szs => {
       setSizes(szs);
       Promise.all(
         szs.map(size =>
           Promise.all([
-            getStock(selectedRef, selectedColor, size),
-            getReappro(selectedRef, selectedColor, size)
-          ]).then(([stock, reappro]) => ({
-            size,
-            stock,
-            reappro   // { dateToRec, quantity } ou null
-          }))
+            getStock(selRef, selColor, size),
+            getReappro(selRef, selColor, size)
+          ]).then(([stock, reappro]) => ({ size, stock, reappro }))
         )
       ).then(results => {
-        const stockMap = {}, reappMap = {};
+        const s={}, r={};
         results.forEach(({ size, stock, reappro }) => {
-          stockMap[size]   = stock;
-          reappMap[size]   = reappro;
+          s[size] = stock;
+          r[size] = reappro;
         });
-        setStockBySize(stockMap);
-        setReapproBySize(reappMap);
+        setStockBySize(s);
+        setReapproBySize(r);
       });
     });
-  }, [selectedRef, selectedColor]);
+  }, [selRef, selColor]);
 
   return (
     <div className="app-container">
-      {/* Logo Spasso */}
-      <img
-        src="/SPASSO_LOGO_PRINCIPAL.png"
-        alt="Logo Spasso"
-        className="app-logo"
-      />
+      <header className="app-header">
+        <img src="/SPASSO_LOGO_PRINCIPAL.png" alt="Logo Spasso" className="app-logo" />
+        <h1 className="app-title">Spasso Stock Checker</h1>
+      </header>
 
-      {/* Titre */}
-      <h1 className="app-title">📦 Spasso Stock Checker</h1>
+      <div className="filters">
+        <div className="filter">
+          <label>Référence</label>
+          <select value={selRef} onChange={e => setSelRef(e.target.value)}>
+            <option value="">-- Choisir --</option>
+            {refs.map(r => <option key={r} value={r}>{r}</option>)}
+          </select>
+        </div>
 
-      {/* Filtres : référence & couleur */}
-      <div className="selectors">
-        <select
-          value={selectedRef}
-          onChange={e => setSelectedRef(e.target.value)}
-        >
-          <option value="">Sélectionnez la référence</option>
-          {refs.map(r => (
-            <option key={r} value={r}>{r}</option>
-          ))}
-        </select>
-
-        <select
-          value={selectedColor}
-          onChange={e => setSelectedColor(e.target.value)}
-          disabled={!colors.length}
-        >
-          <option value="">Sélectionnez la couleur</option>
-          {colors.map(c => (
-            <option key={c} value={c}>{c}</option>
-          ))}
-        </select>
+        <div className="filter">
+          <label>Couleur</label>
+          <select
+            value={selColor}
+            onChange={e => setSelColor(e.target.value)}
+            disabled={!colors.length}
+          >
+            <option value="">-- Choisir --</option>
+            {colors.map(c => <option key={c} value={c}>{c}</option>)}
+          </select>
+        </div>
       </div>
 
-      {/* Visuel promotionnel */}
       <div className="hero-image">
         <img src="/collection-lin.jpg" alt="Collection LIN" />
       </div>
 
-      {/* Tableau des stocks et réappros */}
       {sizes.length > 0 && (
         <table className="results-table">
           <thead>
             <tr>
               <th>Taille</th>
-              <th style={{ textAlign: "right" }}>Stock dispo</th>
-              <th style={{ textAlign: "center" }}>Réappro (date)</th>
-              <th style={{ textAlign: "right" }}>Qté à venir</th>
+              <th>Stock dispo</th>
+              <th>Réappro (date)</th>
+              <th>Qté à venir</th>
             </tr>
           </thead>
           <tbody>
             {sizes.map(size => (
               <tr key={size}>
                 <td>{size}</td>
-                <td style={{ textAlign: "right" }}>
+                <td className="right">
                   {stockBySize[size] > 0 ? stockBySize[size] : "Rupture"}
                 </td>
-                <td style={{ textAlign: "center" }}>
+                <td className="center">
                   {reapproBySize[size]?.dateToRec ?? "-"}
                 </td>
-                <td style={{ textAlign: "right" }}>
+                <td className="right">
                   {reapproBySize[size]?.quantity ?? "-"}
                 </td>
               </tr>
