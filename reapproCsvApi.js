@@ -1,50 +1,40 @@
-// src/reapproCsvApi.js
+// reapproCsvApi.js
 
-// URL publique de votre CSV
+// URL du CSV de réappro placé dans public/
 const REAPPRO_CSV_URL = "/SPASSO_REAPPRO_SP.csv";
 
 let cache = null;
 
-/**
- * Charge et parse le CSV de réappro en mémoire (une seule fois)
- */
+/** Charge et parse le CSV une seule fois */
 async function loadReappro() {
   if (cache) return cache;
   const res  = await fetch(REAPPRO_CSV_URL);
   const text = await res.text();
 
-  // On coupe les lignes et on enlève l'entête
   const lines = text
     .split(/\r?\n/)
     .map(l => l.trim())
-    .filter((l, i) => l && i > 0);
+    .filter((l, i) => l && i > 0); // saute l’en-tête
 
   cache = lines.map(line => {
-    const cols = line.split(";");
+    const [ref, , color, size, , , dateToRec, qty] = line.split(";");
     return {
-      ref        : cols[0],
-      color      : cols[2],
-      size       : cols[3],
-      dateToRec  : cols[6],              // format "DD/MM/YYYY"
-      quantity   : parseInt(cols[7], 10) // quantité à venir
+      ref,
+      color,
+      size,
+      dateToRec, 
+      quantity: parseInt(qty, 10) || 0
     };
   });
 
   return cache;
 }
 
-/**
- * Pour une combo ref+color+size, renvoie la date et la quantité de réappro
- */
+/** Renvoie { dateToRec, quantity } ou null */
 export async function getReappro(ref, color, size) {
   const data = await loadReappro();
   const found = data.find(
-    r =>
-      r.ref   === ref &&
-      r.color === color &&
-      r.size  === size
+    r => r.ref === ref && r.color === color && r.size === size
   );
-  return found
-    ? { dateToRec: found.dateToRec, quantity: found.quantity }
-    : null;
+  return found || null;
 }
