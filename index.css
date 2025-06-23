@@ -1,93 +1,96 @@
 /* index.css */
 
-/* Reset minimal */
+/* 1. Reset & fond étendu */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+html, body {
+  height: 100%;
+  background: #c6bfb2;
+  font-family: "Jost", sans-serif;
+}
 
-/* Conteneur principal */
+/* 2. Container centré */
 .app-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
-  background: #ece3d8;
-  font-family: Arial, sans-serif;
 }
 
-/* En-tête avec logo et titre */
+/* 3. En-tête : logo + titre */
 .app-header {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
-
 .app-logo {
   height: 60px;
   width: auto;
 }
-
 .app-title {
-  font-size: 2rem;
-  font-weight: bold;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000;
 }
 
-/* Filtres côte à côte */
+/* 4. Filtres */
 .filters {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 1rem;
 }
-
 .filter {
-  flex: 1 1 200px;
+  flex: 1;
   display: flex;
   flex-direction: column;
+  font-size: 16px;
 }
-
 .filter label {
   margin-bottom: 0.25rem;
-  font-weight: bold;
+  font-weight: 700;
 }
-
 .filter select {
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
   border-radius: 4px;
 }
 
-/* Visuel */
+/* 5. Visuel */
 .hero-image img {
   width: 100%;
   border-radius: 4px;
   margin-bottom: 1rem;
 }
 
-/* Tableau résultats */
+/* 6. Tableau résultats */
 .results-table {
   width: 100%;
   border-collapse: collapse;
   background: white;
+  border-radius: 4px;
+  overflow: hidden;
 }
-
 .results-table th,
 .results-table td {
-  border: 1px solid #ccc;
   padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
 }
-
 .results-table th {
-  background: #ddd;
+  background: #e0d8cc;
+  font-weight: 700;
   text-align: left;
 }
-
-.results-table .right {
+.results-table td.right {
   text-align: right;
 }
-
-.results-table .center {
+.results-table td.center {
   text-align: center;
 }
