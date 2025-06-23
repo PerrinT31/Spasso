@@ -1,6 +1,6 @@
 /* index.css */
 
-/* 1. Reset & fond étendu */
+/* 1. Reset & fond global */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,42 +12,33 @@ html, body {
   font-family: "Jost", sans-serif;
 }
 
-/* 2. Container centré */
+/* 2. Conteneur principal */
 .app-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
 }
 
-/* 3. En-tête : logo + titre */
-/* index.css */
-
-/* ... avant ... */
-
-/* 3. En-tête : logo AU-DESSUS du titre */
+/* 3. En‐tête empilé : logo au-dessus du titre */
 .app-header {
   display: flex;
-  flex-direction: column;     /* passe en colonne */
-  align-items: center;        /* centrer logo & titre */
-  gap: 0.5rem;                /* petit espace entre logo et titre */
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
   margin-bottom: 1.5rem;
 }
-
 .app-logo {
-  height: 80px;               /* un peu plus grand si vous voulez */
+  height: 80px;
   width: auto;
 }
-
 .app-title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-size: 48px;
   color: #000;
-  margin: 0;                  /* nul pour coller au logo */
 }
 
-
-/* 4. Filtres */
+/* 4. Filtres côte-à-côte */
 .filters {
   display: flex;
   gap: 1rem;
@@ -57,7 +48,6 @@ html, body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  font-size: 16px;
 }
 .filter label {
   margin-bottom: 0.25rem;
@@ -71,18 +61,11 @@ html, body {
   border-radius: 4px;
 }
 
-/* 5. Visuel */
-.hero-image img {
-  width: 100%;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-}
-
-/* 6. Tableau résultats */
+/* 5. Tableau des résultats */
 .results-table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
+  background: #fff;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -103,4 +86,16 @@ html, body {
 }
 .results-table td.center {
   text-align: center;
+}
+
+/* 6. Espace entre le tableau et le visuel */
+.spacer {
+  height: 1.5rem;
+}
+
+/* 7. Visuel sous le tableau */
+.hero-image img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 1rem;
 }
