@@ -9,27 +9,28 @@ on:
 jobs:
   update-reappro:
     runs-on: ubuntu-latest
+
     steps:
-      # 1) On clone le repo et on conserve le GITHUB_TOKEN pour commit/push
+      # 1) Récupérer le dépôt avec persistance du token pour le push
       - name: Checkout
         uses: actions/checkout@v3
         with:
           persist-credentials: true
 
-      # 2) On télécharge le CSV distant (remplacez l’URL par la vôtre)
+      # 2) Télécharger le CSV de réappro (URL corrigée)
       - name: Télécharger le CSV de réappro
         run: |
-          curl -fSL 'https://files.karibanbrands.com/documents/SPASSO_REAPPRO_SP.csv' \
-            -o public/SPASSO_REAPPRO_SP.csv
+          curl -fsSL "https://files.karibanbrands.com/documents/SPASSO_REAPPROWEB_SP.csv" \
+            -o public/SPASSO_REAPPROWEB_SP.csv
 
-      # 3) On ne commit/push que s’il y a eu un vrai changement
+      # 3) Commit & push uniquement si le CSV a changé
       - name: Commit & push si modifié
         run: |
           git config user.name  "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add public/SPASSO_REAPPRO_SP.csv
+          git add public/SPASSO_REAPPROWEB_SP.csv
           if git diff --cached --quiet; then
-            echo "Aucun changement détecté, pas de commit."
+            echo "Aucun changement détecté – pas de commit."
           else
             git commit -m "Mise à jour quotidienne du CSV de réappro"
             git push
