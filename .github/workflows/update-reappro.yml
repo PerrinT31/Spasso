@@ -3,7 +3,7 @@ name: Mise à jour quotidienne du CSV de réappro
 
 on:
   schedule:
-    # Tous les jours à 08h10
+    # Tous les jours à 02h00
     - cron: '0 2 * * *'
 
 jobs:
