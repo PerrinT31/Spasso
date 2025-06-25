@@ -19,12 +19,12 @@ export default function App() {
   const [stockBySize, setStockBySize]     = useState({});
   const [reapproBySize, setReapproBySize] = useState({});
 
-  // Charger les références
+  // 1️⃣ Charger les références
   useEffect(() => {
     getUniqueRefs().then(setRefs);
   }, []);
 
-  // Quand on change de référence, recharger les couleurs
+  // 2️⃣ Charger les couleurs quand on choisit une référence
   useEffect(() => {
     if (!selectedRef) {
       setColors([]);
@@ -43,7 +43,7 @@ export default function App() {
     });
   }, [selectedRef]);
 
-  // Quand on change de couleur, recharger tailles + stock + réappro
+  // 3️⃣ Charger tailles + stocks + réappro quand on choisit une couleur
   useEffect(() => {
     if (!selectedColor) {
       setSizes([]);
@@ -51,27 +51,34 @@ export default function App() {
       setReapproBySize({});
       return;
     }
-    getSizesFor(selectedRef, selectedColor).then(szs => {
-      setSizes(szs);
+
+    getSizesFor(selectedRef, selectedColor).then(rawSizes => {
+      // Tri personnalisé : XS d’abord, puis S, M, L, XL, XXL, 3XL, le reste à la suite
+      const order = ["XS", "S", "M", "L", "XL", "XXL", "3XL"];
+      const sorted = [
+        ...order.filter(sz => rawSizes.includes(sz)),
+        ...rawSizes.filter(sz => !order.includes(sz))
+      ];
+
+      setSizes(sorted);
+
+      // Charger stock et réappro pour chaque taille
       Promise.all(
-        szs.map(size =>
+        sorted.map(size =>
           Promise.all([
             getStock(selectedRef, selectedColor, size),
             getReappro(selectedRef, selectedColor, size)
-          ]).then(([stock, reappro]) => ({
-            size,
-            stock,
-            reappro
-          }))
+          ]).then(([stock, reappro]) => ({ size, stock, reappro }))
         )
       ).then(results => {
-        const s = {}, r = {};
+        const newStock  = {};
+        const newReappro = {};
         results.forEach(({ size, stock, reappro }) => {
-          s[size] = stock;
-          r[size] = reappro;
+          newStock[size]   = stock;
+          newReappro[size] = reappro;
         });
-        setStockBySize(s);
-        setReapproBySize(r);
+        setStockBySize(newStock);
+        setReapproBySize(newReappro);
       });
     });
   }, [selectedRef, selectedColor]);
@@ -149,7 +156,7 @@ export default function App() {
         </table>
       )}
 
-      {/* ❷ Petit espace réactif */}
+      {/* ❷ Espace avant le visuel */}
       <div className="spacer" />
 
       {/* ❸ Visuel sous le tableau */}
