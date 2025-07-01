@@ -1,48 +1,45 @@
-# .github/workflows/update-csv.yml
-
-name: 🔄 Mise à jour quotidienne du CSV Spasso
-
-# Donner à GITHUB_TOKEN le droit d'écrire dans le repo
-permissions:
-  contents: write
+# .github/workflows/update-stock-csv.yml
+name: Mise à jour quotidienne du CSV Stock Web Spasso
 
 on:
   schedule:
-    # Exécution chaque jour à 02:00 UTC
-    - cron: '0 2 * * *'
-  workflow_dispatch:  # Permet de lancer manuellement si besoin
+    # Exécution chaque jour à 04h00 UTC
+    - cron: '0 4 * * *'
+  workflow_dispatch:  # permet aussi de lancer manuellement depuis l’UI
 
 jobs:
-  update-csv:
+  update-stock-csv:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ✅ Récupérer le code
+      # 1) Checkout avec l’historique complet pour le rebase
+      - name: Checkout
         uses: actions/checkout@v3
         with:
-          # Autorise le push via GITHUB_TOKEN
-          persist-credentials: true
+          persist-credentials: true  # pour pousser avec GITHUB_TOKEN
+          fetch-depth: 0             # nécessaire pour git pull --rebase
 
-      - name: 📥 Télécharger le CSV distant
+      # 2) Télécharger le CSV Stock Web
+      - name: Télécharger le CSV SPASSO_STOCKWEB_SP.csv
         run: |
-          curl -sSfL \
-            https://files.karibanbrands.com/documents/SPASSO_STOCKWEB_SP.csv \
+          curl -fsSL "https://files.karibanbrands.com/documents/SPASSO_STOCKWEB_SP.csv" \
             -o public/SPASSO_STOCKWEB_SP.csv
 
-      - name: 🔍 Vérifier s’il y a eu un changement
+      # 3) Commit & push si le fichier a changé (avec rebase pour éviter le non-fast-forward)
+      - name: Commit & push si modifié
         run: |
-          git diff --exit-code public/SPASSO_STOCKWEB_SP.csv || echo "Changements détectés"
+          git config user.name  "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-      - name: 💾 Commit & push si modifié
-        run: |
-          # Configurer l’utilisateur pour Git
-          git config user.name "github-actions[bot]"
-          git config user.email "actions@github.com"
-          # Commit et push uniquement si le CSV a changé
-          if ! git diff --quiet public/SPASSO_STOCKWEB_SP.csv; then
-            git add public/SPASSO_STOCKWEB_SP.csv
-            git commit -m "🔄 Mise à jour quotidienne du CSV Spasso"
-            git push
-          else
-            echo "Aucun changement détecté — pas de commit."
+          git add public/SPASSO_STOCKWEB_SP.csv
+
+          if git diff --cached --quiet; then
+            echo "Aucun changement détecté – pas de commit."
+            exit 0
           fi
+
+          # Mettre à jour la branche locale pour éviter le rejet non-fast-forward
+          git pull --rebase origin main
+
+          git commit -m "Mise à jour quotidienne du CSV Stock Web Spasso"
+          git push origin main
