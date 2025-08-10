@@ -1,6 +1,6 @@
 REF;DESIGNATION;COLOR;SIZE;COLOR CODE;SIZE CODE;DATE TO RECEIVE;QUANTITY;BARCODE;SKU;GS1_EAN13
-SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;07/08/2025;1968;;SP100_96244_96243;3663639149631
-SP120;Fouta;Cedar Brown Heather;One Size;96246;96245;07/08/2025;1968;;SP120_96246_96245;3663639149648
+SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;13/08/2025;1968;;SP100_96244_96243;3663639149631
+SP120;Fouta;Cedar Brown Heather;One Size;96246;96245;13/08/2025;1968;;SP120_96246_96245;3663639149648
 SP121;Honeycomb striped plaid;Pampa Beige;One Size;96248;96247;13/08/2025;1978;;SP121_96248_96247;3663639149655
 SP132;Jute shopping bag;Natural;One Size;91638;91637;03/02/2026;2000;;SP132_91638_91637;3663938365428
 SP140;Unisex scarf;Grey Circles;One Size;93568;93567;10/09/2025;228;;SP140_93568_93567;3663639146159
@@ -295,7 +295,7 @@ SP501;Ladies' Oversize Linen Shirt;Raspberry Sorbet;XL;96275;96273;04/09/2025;12
 SP501;Ladies' Oversize Linen Shirt;White;XS;96276;96269;04/09/2025;100;;SP501_96276_96269;3663639139113
 SP501;Ladies' Oversize Linen Shirt;White;S;96276;96270;04/09/2025;397;;SP501_96276_96270;3663639139144
 SP501;Ladies' Oversize Linen Shirt;White;M;96276;96271;04/09/2025;473;;SP501_96276_96271;3663639139175
-SP501;Ladies' Oversize Linen Shirt;White;L;96276;96272;04/09/2025;299;;SP501_96276_96272;3663639139205
+SP501;Ladies' Oversize Linen Shirt;White;L;96276;96272;04/09/2025;298;;SP501_96276_96272;3663639139205
 SP501;Ladies' Oversize Linen Shirt;White;XL;96276;96273;04/09/2025;125;;SP501_96276_96273;3663639139236
 SP504;Men's linen shirt;Adriatic Blue;S;92004;91992;24/02/2026;100;;SP504_92004_91992;3663938617374
 SP504;Men's linen shirt;Adriatic Blue;M;92004;91995;24/02/2026;325;;SP504_92004_91995;3663938617367
@@ -466,25 +466,6 @@ SP518;Men's Linen Shirt;Organic Khaki;L;89433;89427;17/11/2025;25;;SP518_89433_8
 SP518;Men's Linen Shirt;Organic Khaki;XL;89433;89428;17/11/2025;75;;SP518_89433_89428;3663938622637
 SP518;Men's Linen Shirt;Organic Khaki;XXL;89433;89429;17/11/2025;75;;SP518_89433_89429;3663938622668
 SP518;Men's Linen Shirt;Organic Khaki;3XL;89433;89430;17/11/2025;50;;SP518_89433_89430;3663938622699
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;S;89439;89434;03/10/2025;360;;SP519_89439_89434;3663639129909
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;M;89439;89435;03/10/2025;660;;SP519_89439_89435;3663639129930
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;L;89439;89436;03/10/2025;720;;SP519_89439_89436;3663639129961
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XL;89439;89437;03/10/2025;465;;SP519_89439_89437;3663639129992
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XXL;89439;89438;03/10/2025;270;;SP519_89439_89438;3663639130028
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XS;89439;93458;03/10/2025;165;;SP519_89439_93458;3663938626475
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;3XL;89439;93459;03/10/2025;120;;SP519_89439_93459;3663938626420
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;S;89440;89434;03/10/2025;360;;SP519_89440_89434;3663639129916
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;M;89440;89435;03/10/2025;660;;SP519_89440_89435;3663639129947
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;L;89440;89436;03/10/2025;720;;SP519_89440_89436;3663639129978
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;XL;89440;89437;03/10/2025;465;;SP519_89440_89437;3663639130004
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;XXL;89440;89438;03/10/2025;270;;SP519_89440_89438;3663639130035
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;XS;89440;93458;03/10/2025;165;;SP519_89440_93458;3663938626543
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;3XL;89440;93459;03/10/2025;120;;SP519_89440_93459;3663938626499
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;S;89441;89434;03/10/2025;360;;SP519_89441_89434;3663639129923
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;L;89441;89436;03/10/2025;720;;SP519_89441_89436;3663639129985
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;XL;89441;89437;03/10/2025;465;;SP519_89441_89437;3663639130011
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;XS;89441;93458;03/10/2025;165;;SP519_89441_93458;3663938626611
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;3XL;89441;93459;03/10/2025;120;;SP519_89441_93459;3663938626567
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;S;89455;89450;24/12/2025;250;;SP522_89455_89450;3663938622705
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;M;89455;89451;24/12/2025;375;;SP522_89455_89451;3663938622729
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;L;89455;89452;24/12/2025;363;;SP522_89455_89452;3663938622743
@@ -544,15 +525,10 @@ SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;L;92180;921
 SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;XL;92180;92177;28/01/2026;200;;SP708_92180_92177;3663938328416
 SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;XXL;92180;92178;28/01/2026;60;;SP708_92180_92178;3663938328430
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XS;92181;92173;28/01/2026;180;;SP708_92181_92173;3663938328492
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;S;92181;92174;03/10/2025;160;;SP708_92181_92174;3663938328478
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;S;92181;92174;28/01/2026;380;;SP708_92181_92174;3663938328478
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;M;92181;92175;03/10/2025;200;;SP708_92181_92175;3663938328461
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;M;92181;92175;28/01/2026;580;;SP708_92181_92175;3663938328461
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;L;92181;92176;03/10/2025;200;;SP708_92181_92176;3663938328454
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;L;92181;92176;28/01/2026;500;;SP708_92181_92176;3663938328454
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XL;92181;92177;03/10/2025;200;;SP708_92181_92177;3663938328485
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XL;92181;92177;28/01/2026;160;;SP708_92181_92177;3663938328485
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XXL;92181;92178;03/10/2025;60;;SP708_92181_92178;3663938328508
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XXL;92181;92178;28/01/2026;60;;SP708_92181_92178;3663938328508
 SP710;Men's Linen Trousers;Linen Sand;38 FR;92196;92189;24/02/2026;240;;SP710_92196_92189;3663938576886
 SP710;Men's Linen Trousers;Linen Sand;40 FR;92196;92190;24/02/2026;180;;SP710_92196_92190;3663938576893
@@ -650,7 +626,7 @@ SP733;Ladies' Linen Washed Effect Trousers;Washed Organic Khaki;XXL;92242;92240;
 SP733;Ladies' Linen Washed Effect Trousers;Washed Organic Khaki;XXL;92242;92240;24/02/2026;120;;SP733_92242_92240;3663938625591
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;XS;92243;92235;04/09/2025;60;;SP733_92243_92235;3663938625645
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;XS;92243;92235;24/02/2026;80;;SP733_92243_92235;3663938625645
-SP733;Ladies' Linen Washed Effect Trousers;Washed White;S;92243;92236;04/09/2025;59;;SP733_92243_92236;3663938625621
+SP733;Ladies' Linen Washed Effect Trousers;Washed White;S;92243;92236;04/09/2025;58;;SP733_92243_92236;3663938625621
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;S;92243;92236;24/02/2026;560;;SP733_92243_92236;3663938625621
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;M;92243;92237;04/09/2025;100;;SP733_92243_92237;3663938625614
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;M;92243;92237;24/02/2026;340;;SP733_92243_92237;3663938625614
