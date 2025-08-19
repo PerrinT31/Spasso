@@ -1,5 +1,5 @@
 REF;DESIGNATION;COLOR;SIZE;COLOR CODE;SIZE CODE;DATE TO RECEIVE;QUANTITY;BARCODE;SKU;GS1_EAN13
-SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;20/08/2025;1969;;SP100_96244_96243;3663639149631
+SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;21/08/2025;1970;;SP100_96244_96243;3663639149631
 SP120;Fouta;Cedar Brown Heather;One Size;96246;96245;20/08/2025;1969;;SP120_96246_96245;3663639149648
 SP121;Honeycomb striped plaid;Pampa Beige;One Size;96248;96247;20/08/2025;1978;;SP121_96248_96247;3663639149655
 SP132;Jute shopping bag;Natural;One Size;91638;91637;03/02/2026;2000;;SP132_91638_91637;3663938365428
@@ -11,12 +11,12 @@ SP144;Unisex reversible scarf;Brown Patchwork / Brown Checkboard;One Size;93576;
 SP145;Unisex scarf;White Floral Blue;One Size;93578;93577;10/09/2025;219;;SP145_93578_93577;3663639146203
 SP146;Unisex scarf;Blue Double Stripes;One Size;93794;93793;10/09/2025;216;;SP146_93794_93793;3663639146210
 SP147;Unisex scarf;Brown Classic Checks;One Size;93834;93833;10/09/2025;231;;SP147_93834_93833;3663639146227
-SP148;Unisex scarf;Sand Medallion;One Size;93853;93852;10/09/2025;229;;SP148_93853_93852;3663639146234
+SP148;Unisex scarf;Sand Medallion;One Size;93853;93852;10/09/2025;230;;SP148_93853_93852;3663639146234
 SP149;Unisex scarf;Greenish Shadow Checks;One Size;93864;93863;10/09/2025;211;;SP149_93864_93863;3663639146241
 SP150;Unisex scarf;Blue Classic Checks;One Size;93905;93904;10/09/2025;232;;SP150_93905_93904;3663639146258
 SP151;Unisex scarf;Urban Grey Stripes;One Size;93925;93924;10/09/2025;225;;SP151_93925_93924;3663639146265
 SP152;Unisex scarf;Blue Checks;One Size;93936;93935;10/09/2025;219;;SP152_93936_93935;3663639146272
-SP153;Unisex scarf;Green Sunburst;One Size;93938;93937;10/09/2025;219;;SP153_93938_93937;3663639146289
+SP153;Unisex scarf;Green Sunburst;One Size;93938;93937;10/09/2025;220;;SP153_93938_93937;3663639146289
 SP154;Unisex scarf;Olive Crosschecks Marine;One Size;93940;93939;10/09/2025;213;;SP154_93940_93939;3663639146296
 SP155;Unisex scarf;Graphite Ink Stripes;One Size;93942;93941;10/09/2025;206;;SP155_93942_93941;3663639146302
 SP156;Unisex scarf;Blue Floral Mozaic;One Size;93944;93943;10/09/2025;234;;SP156_93944_93943;3663639146319
@@ -130,24 +130,24 @@ SP221;Ladies’ linen polo shirt;Ivory;M;92040;92036;24/02/2026;150;;SP221_92040_9
 SP221;Ladies’ linen polo shirt;Wet Sand;XS;92046;92034;24/02/2026;250;;SP221_92046_92034;3663938678689
 SP221;Ladies’ linen polo shirt;Wet Sand;S;92046;92035;24/02/2026;100;;SP221_92046_92035;3663938678764
 SP221;Ladies’ linen polo shirt;Wet Sand;M;92046;92036;24/02/2026;100;;SP221_92046_92036;3663938678849
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;S;93556;93550;01/09/2025;549;;SP303_93556_93550;3663938718774
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;M;93556;93551;01/09/2025;1097;;SP303_93556_93551;3663938718804
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;L;93556;93552;01/09/2025;1249;;SP303_93556_93552;3663938718835
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XL;93556;93553;01/09/2025;1248;;SP303_93556_93553;3663938718866
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XXL;93556;93554;01/09/2025;350;;SP303_93556_93554;3663938718897
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;3XL;93556;93555;01/09/2025;150;;SP303_93556_93555;3663938718927
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;S;93557;93550;01/09/2025;439;;SP303_93557_93550;3663938718781
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;M;93557;93551;01/09/2025;898;;SP303_93557_93551;3663938718811
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;L;93557;93552;01/09/2025;996;;SP303_93557_93552;3663938718842
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XL;93557;93553;01/09/2025;950;;SP303_93557_93553;3663938718873
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XXL;93557;93554;01/09/2025;250;;SP303_93557_93554;3663938718903
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;3XL;93557;93555;01/09/2025;150;;SP303_93557_93555;3663938718934
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;S;93558;93550;01/09/2025;899;;SP303_93558_93550;3663938718798
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;M;93558;93551;01/09/2025;1597;;SP303_93558_93551;3663938718828
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;L;93558;93552;01/09/2025;1748;;SP303_93558_93552;3663938718859
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XL;93558;93553;01/09/2025;1730;;SP303_93558_93553;3663938718880
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XXL;93558;93554;01/09/2025;500;;SP303_93558_93554;3663938718910
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;3XL;93558;93555;01/09/2025;240;;SP303_93558_93555;3663938718941
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;S;93556;93550;05/09/2025;549;;SP303_93556_93550;3663938718774
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;M;93556;93551;05/09/2025;1098;;SP303_93556_93551;3663938718804
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;L;93556;93552;05/09/2025;1249;;SP303_93556_93552;3663938718835
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XL;93556;93553;05/09/2025;1248;;SP303_93556_93553;3663938718866
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XXL;93556;93554;05/09/2025;350;;SP303_93556_93554;3663938718897
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;3XL;93556;93555;05/09/2025;150;;SP303_93556_93555;3663938718927
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;S;93557;93550;05/09/2025;439;;SP303_93557_93550;3663938718781
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;M;93557;93551;05/09/2025;898;;SP303_93557_93551;3663938718811
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;L;93557;93552;05/09/2025;996;;SP303_93557_93552;3663938718842
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XL;93557;93553;05/09/2025;950;;SP303_93557_93553;3663938718873
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XXL;93557;93554;05/09/2025;250;;SP303_93557_93554;3663938718903
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;3XL;93557;93555;05/09/2025;150;;SP303_93557_93555;3663938718934
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;S;93558;93550;05/09/2025;899;;SP303_93558_93550;3663938718798
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;M;93558;93551;05/09/2025;1597;;SP303_93558_93551;3663938718828
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;L;93558;93552;05/09/2025;1748;;SP303_93558_93552;3663938718859
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XL;93558;93553;05/09/2025;1730;;SP303_93558_93553;3663938718880
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XXL;93558;93554;05/09/2025;500;;SP303_93558_93554;3663938718910
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;3XL;93558;93555;05/09/2025;240;;SP303_93558_93555;3663938718941
 SP320;Men's linen t-shirt;Black;S;92053;92047;24/02/2026;100;;SP320_92053_92047;3663938678931
 SP320;Men's linen t-shirt;Black;M;92053;92048;24/02/2026;100;;SP320_92053_92048;3663938678986
 SP320;Men's linen t-shirt;Black;L;92053;92049;24/02/2026;200;;SP320_92053_92049;3663938679037
