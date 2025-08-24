@@ -63,12 +63,12 @@ SP202;Men’s long sleeve linen polo shirt;Navy;S;23578;23576;0;SP202-NAVY-S-25;SP
 SP202;Men’s long sleeve linen polo shirt;Navy;3XL;23578;23577;0;SP202-NAVY-XXXL-25;SP202_23578_23577;
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;M;91988;13430;0;;SP202_91988_13430;3663938578798
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;L;91988;13431;5;;SP202_91988_13431;3663938578781
-SP202;Men’s long sleeve linen polo shirt;Navy Blue;XL;91988;13432;0;;SP202_91988_13432;3663938578811
+SP202;Men’s long sleeve linen polo shirt;Navy Blue;XL;91988;13432;1;;SP202_91988_13432;3663938578811
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;XXL;91988;13433;;;SP202_91988_13433;3663938578828
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;S;91988;23576;0;;SP202_91988_23576;3663938578804
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;3XL;91988;23577;63;;SP202_91988_23577;3663938578774
 SP202;Men’s long sleeve linen polo shirt;Wet Sand;M;91989;13430;30;;SP202_91989_13430;3663938578859
-SP202;Men’s long sleeve linen polo shirt;Wet Sand;L;91989;13431;2;;SP202_91989_13431;3663938578842
+SP202;Men’s long sleeve linen polo shirt;Wet Sand;L;91989;13431;82;;SP202_91989_13431;3663938578842
 SP202;Men’s long sleeve linen polo shirt;Wet Sand;XL;91989;13432;48;;SP202_91989_13432;3663938578873
 SP202;Men’s long sleeve linen polo shirt;Wet Sand;XXL;91989;13433;62;;SP202_91989_13433;3663938578880
 SP202;Men’s long sleeve linen polo shirt;Wet Sand;S;91989;23576;0;;SP202_91989_23576;3663938578866
@@ -759,7 +759,7 @@ SP514;Eco-friendly Ladies' oversized lyocell shirt;Washed White;L;92156;92152;15
 SP514;Eco-friendly Ladies' oversized lyocell shirt;Washed White;XL;92156;92153;102;;SP514_92156_92153;3663938329840
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Dark Navy;XS;92162;92157;213;;SP515_92162_92157;3663938329901
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Dark Navy;S;92162;92158;336;;SP515_92162_92158;3663938329888
-SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Dark Navy;M;92162;92159;235;;SP515_92162_92159;3663938329871
+SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Dark Navy;M;92162;92159;285;;SP515_92162_92159;3663938329871
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Dark Navy;L;92162;92160;139;;SP515_92162_92160;3663938329864
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Dark Navy;XL;92162;92161;73;;SP515_92162_92161;3663938329895
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Organic Khaki;XS;92163;92157;185;;SP515_92163_92157;3663938365251
@@ -1143,7 +1143,7 @@ SP800;Eco-friendly unisex socks;Almond Green;43/45 EU;92247;92246;29;;SP800_9224
 SP800;Eco-friendly unisex socks;Amazon Green;39/41 EU;92248;92244;105;;SP800_92248_92244;3663938282244
 SP800;Eco-friendly unisex socks;Amazon Green;41/43 EU;92248;92245;64;;SP800_92248_92245;3663938282251
 SP800;Eco-friendly unisex socks;Amazon Green;43/45 EU;92248;92246;107;;SP800_92248_92246;3663938282268
-SP800;Eco-friendly unisex socks;Amazon Green Heather;39/41 EU;92249;92244;0;;SP800_92249_92244;3663938282213
+SP800;Eco-friendly unisex socks;Amazon Green Heather;39/41 EU;92249;92244;120;;SP800_92249_92244;3663938282213
 SP800;Eco-friendly unisex socks;Amazon Green Heather;41/43 EU;92249;92245;61;;SP800_92249_92245;3663938282220
 SP800;Eco-friendly unisex socks;Amazon Green Heather;43/45 EU;92249;92246;108;;SP800_92249_92246;3663938282237
 SP800;Eco-friendly unisex socks;Apricot;39/41 EU;92250;92244;2;;SP800_92250_92244;3663938282275
@@ -1152,7 +1152,7 @@ SP800;Eco-friendly unisex socks;Apricot;43/45 EU;92250;92246;49;;SP800_92250_922
 SP800;Eco-friendly unisex socks;Aquamarine;39/41 EU;92251;92244;77;;SP800_92251_92244;3663938282305
 SP800;Eco-friendly unisex socks;Aquamarine;41/43 EU;92251;92245;66;;SP800_92251_92245;3663938282312
 SP800;Eco-friendly unisex socks;Aquamarine;43/45 EU;92251;92246;60;;SP800_92251_92246;3663938282329
-SP800;Eco-friendly unisex socks;Black;39/41 EU;92252;92244;68;;SP800_92252_92244;3663938282336
+SP800;Eco-friendly unisex socks;Black;39/41 EU;92252;92244;468;;SP800_92252_92244;3663938282336
 SP800;Eco-friendly unisex socks;Black;41/43 EU;92252;92245;320;;SP800_92252_92245;3663938282343
 SP800;Eco-friendly unisex socks;Black;43/45 EU;92252;92246;336;;SP800_92252_92246;3663938282350
 SP800;Eco-friendly unisex socks;Clementine Heather;39/41 EU;92253;92244;5;;SP800_92253_92244;3663938282367
@@ -1164,10 +1164,10 @@ SP800;Eco-friendly unisex socks;Cool Blue;43/45 EU;92254;92246;94;;SP800_92254_9
 SP800;Eco-friendly unisex socks;Cool Blue Heather;39/41 EU;92255;92244;111;;SP800_92255_92244;3663938282398
 SP800;Eco-friendly unisex socks;Cool Blue Heather;41/43 EU;92255;92245;101;;SP800_92255_92245;3663938282404
 SP800;Eco-friendly unisex socks;Cool Blue Heather;43/45 EU;92255;92246;126;;SP800_92255_92246;3663938282411
-SP800;Eco-friendly unisex socks;Curcuma;39/41 EU;92256;92244;0;;SP800_92256_92244;3663938282459
-SP800;Eco-friendly unisex socks;Curcuma;41/43 EU;92256;92245;0;;SP800_92256_92245;3663938282466
+SP800;Eco-friendly unisex socks;Curcuma;39/41 EU;92256;92244;113;;SP800_92256_92244;3663938282459
+SP800;Eco-friendly unisex socks;Curcuma;41/43 EU;92256;92245;66;;SP800_92256_92245;3663938282466
 SP800;Eco-friendly unisex socks;Curcuma;43/45 EU;92256;92246;100;;SP800_92256_92246;3663938282473
-SP800;Eco-friendly unisex socks;Dark Cherry;39/41 EU;92257;92244;0;;SP800_92257_92244;3663938282480
+SP800;Eco-friendly unisex socks;Dark Cherry;39/41 EU;92257;92244;71;;SP800_92257_92244;3663938282480
 SP800;Eco-friendly unisex socks;Dark Cherry;41/43 EU;92257;92245;52;;SP800_92257_92245;3663938282497
 SP800;Eco-friendly unisex socks;Dark Cherry;43/45 EU;92257;92246;111;;SP800_92257_92246;3663938282503
 SP800;Eco-friendly unisex socks;Deep Plum;39/41 EU;92258;92244;107;;SP800_92258_92244;3663938282510
@@ -1179,7 +1179,7 @@ SP800;Eco-friendly unisex socks;Green field;43/45 EU;92259;92246;80;;SP800_92259
 SP800;Eco-friendly unisex socks;Grizzly Brown Heather;39/41 EU;92260;92244;93;;SP800_92260_92244;3663938282572
 SP800;Eco-friendly unisex socks;Grizzly Brown Heather;41/43 EU;92260;92245;82;;SP800_92260_92245;3663938282589
 SP800;Eco-friendly unisex socks;Grizzly Brown Heather;43/45 EU;92260;92246;91;;SP800_92260_92246;3663938282596
-SP800;Eco-friendly unisex socks;Hibiscus Red;39/41 EU;92261;92244;0;;SP800_92261_92244;3663938282602
+SP800;Eco-friendly unisex socks;Hibiscus Red;39/41 EU;92261;92244;39;;SP800_92261_92244;3663938282602
 SP800;Eco-friendly unisex socks;Hibiscus Red;41/43 EU;92261;92245;61;;SP800_92261_92245;3663938282619
 SP800;Eco-friendly unisex socks;Hibiscus Red;43/45 EU;92261;92246;81;;SP800_92261_92246;3663938282626
 SP800;Eco-friendly unisex socks;Iron Grey;39/41 EU;92262;92244;305;;SP800_92262_92244;3663938282633
@@ -1187,22 +1187,22 @@ SP800;Eco-friendly unisex socks;Iron Grey;41/43 EU;92262;92245;472;;SP800_92262_
 SP800;Eco-friendly unisex socks;Iron Grey;43/45 EU;92262;92246;412;;SP800_92262_92246;3663938282657
 SP800;Eco-friendly unisex socks;Ivory;39/41 EU;92263;92244;0;;SP800_92263_92244;3663938282664
 SP800;Eco-friendly unisex socks;Ivory;41/43 EU;92263;92245;6;;SP800_92263_92245;3663938282671
-SP800;Eco-friendly unisex socks;Ivory;43/45 EU;92263;92246;0;;SP800_92263_92246;3663938282688
+SP800;Eco-friendly unisex socks;Ivory;43/45 EU;92263;92246;54;;SP800_92263_92246;3663938282688
 SP800;Eco-friendly unisex socks;Jade Green;39/41 EU;92264;92244;0;;SP800_92264_92244;3663938282695
 SP800;Eco-friendly unisex socks;Jade Green;41/43 EU;92264;92245;22;;SP800_92264_92245;3663938282701
 SP800;Eco-friendly unisex socks;Jade Green;43/45 EU;92264;92246;47;;SP800_92264_92246;3663938282718
 SP800;Eco-friendly unisex socks;Light Olive Green;39/41 EU;92265;92244;86;;SP800_92265_92244;3663938282725
 SP800;Eco-friendly unisex socks;Light Olive Green;41/43 EU;92265;92245;77;;SP800_92265_92245;3663938282732
 SP800;Eco-friendly unisex socks;Light Olive Green;43/45 EU;92265;92246;108;;SP800_92265_92246;3663938282749
-SP800;Eco-friendly unisex socks;Mineral Grey;39/41 EU;92266;92244;0;;SP800_92266_92244;3663938282756
+SP800;Eco-friendly unisex socks;Mineral Grey;39/41 EU;92266;92244;103;;SP800_92266_92244;3663938282756
 SP800;Eco-friendly unisex socks;Mineral Grey;41/43 EU;92266;92245;76;;SP800_92266_92245;3663938282763
 SP800;Eco-friendly unisex socks;Mineral Grey;43/45 EU;92266;92246;117;;SP800_92266_92246;3663938282770
 SP800;Eco-friendly unisex socks;Moon Grey Heather;39/41 EU;92267;92244;36;;SP800_92267_92244;3663938282787
 SP800;Eco-friendly unisex socks;Moon Grey Heather;41/43 EU;92267;92245;32;;SP800_92267_92245;3663938282794
 SP800;Eco-friendly unisex socks;Moon Grey Heather;43/45 EU;92267;92246;95;;SP800_92267_92246;3663938282800
-SP800;Eco-friendly unisex socks;Navy Blue;39/41 EU;92268;92244;4;;SP800_92268_92244;3663938282848
+SP800;Eco-friendly unisex socks;Navy Blue;39/41 EU;92268;92244;404;;SP800_92268_92244;3663938282848
 SP800;Eco-friendly unisex socks;Navy Blue;41/43 EU;92268;92245;364;;SP800_92268_92245;3663938282855
-SP800;Eco-friendly unisex socks;Navy Blue;43/45 EU;92268;92246;0;;SP800_92268_92246;3663938282862
+SP800;Eco-friendly unisex socks;Navy Blue;43/45 EU;92268;92246;312;;SP800_92268_92246;3663938282862
 SP800;Eco-friendly unisex socks;Navy Blue Heather;39/41 EU;92269;92244;0;;SP800_92269_92244;3663938282817
 SP800;Eco-friendly unisex socks;Navy Blue Heather;41/43 EU;92269;92245;66;;SP800_92269_92245;3663938282824
 SP800;Eco-friendly unisex socks;Navy Blue Heather;43/45 EU;92269;92246;68;;SP800_92269_92246;3663938282831
@@ -1241,7 +1241,7 @@ SP800;Eco-friendly unisex socks;Volcano Grey Heather;41/43 EU;92280;92245;88;;SP
 SP800;Eco-friendly unisex socks;Volcano Grey Heather;43/45 EU;92280;92246;49;;SP800_92280_92246;3663938283197
 SP800;Eco-friendly unisex socks;Wet Sand;39/41 EU;92281;92244;34;;SP800_92281_92244;3663938283203
 SP800;Eco-friendly unisex socks;Wet Sand;41/43 EU;92281;92245;3;;SP800_92281_92245;3663938283210
-SP800;Eco-friendly unisex socks;Wet Sand;43/45 EU;92281;92246;0;;SP800_92281_92246;3663938283227
+SP800;Eco-friendly unisex socks;Wet Sand;43/45 EU;92281;92246;30;;SP800_92281_92246;3663938283227
 SP800;Eco-friendly unisex socks;White;39/41 EU;92282;92244;0;;SP800_92282_92244;3663938283234
 SP800;Eco-friendly unisex socks;White;41/43 EU;92282;92245;0;;SP800_92282_92245;3663938283241
 SP800;Eco-friendly unisex socks;White;43/45 EU;92282;92246;0;;SP800_92282_92246;3663938283258
@@ -1286,7 +1286,7 @@ SP901;Men's jumper with polo collar;Organic Khaki;XL;94222;94218;19;;SP901_94222
 SP901;Men's jumper with polo collar;Organic Khaki;XXL;94222;94219;3;;SP901_94222_94219;3663938718422
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;S;91967;91961;18;;SP906_91967_91961;3663938326757
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;M;91967;91962;93;;SP906_91967_91962;3663938326740
-SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;L;91967;91963;278;;SP906_91967_91963;3663938326733
+SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;L;91967;91963;318;;SP906_91967_91963;3663938326733
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;XL;91967;91964;9;;SP906_91967_91964;3663938326764
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;XXL;91967;91965;113;;SP906_91967_91965;3663938326771
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;3XL;91967;91966;155;;SP906_91967_91966;3663938326726
