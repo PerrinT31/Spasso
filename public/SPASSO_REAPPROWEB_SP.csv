@@ -1,9 +1,8 @@
 REF;DESIGNATION;COLOR;SIZE;COLOR CODE;SIZE CODE;DATE TO RECEIVE;QUANTITY;BARCODE;SKU;GS1_EAN13
-SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;26/09/2025;1956;;SP100_96244_96243;3663639149631
-SP120;Fouta;Cedar Brown Heather;One Size;96246;96245;26/09/2025;1955;;SP120_96246_96245;3663639149648
+SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;26/09/2025;1957;;SP100_96244_96243;3663639149631
+SP120;Fouta;Cedar Brown Heather;One Size;96246;96245;26/09/2025;1956;;SP120_96246_96245;3663639149648
 SP121;Honeycomb striped plaid;Pampa Beige;One Size;96248;96247;26/09/2025;1968;;SP121_96248_96247;3663639149655
 SP132;Jute shopping bag;Natural;One Size;91638;91637;03/02/2026;2000;;SP132_91638_91637;3663938365428
-SP154;Unisex scarf;Olive Crosschecks Marine;One Size;93940;93939;10/09/2025;2;;SP154_93940_93939;3663639146296
 SP203;Eco-friendly men's knitted polo shirt;Almond Green;M;88703;13096;06/03/2026;420;;SP203_88703_13096;3663938621869
 SP203;Eco-friendly men's knitted polo shirt;Almond Green;L;88703;13097;06/03/2026;240;;SP203_88703_13097;3663938621876
 SP203;Eco-friendly men's knitted polo shirt;Almond Green;XL;88703;13098;06/03/2026;150;;SP203_88703_13098;3663938621883
@@ -99,24 +98,24 @@ SP221;Ladies’ linen polo shirt;Ivory;M;92040;92036;24/02/2026;150;;SP221_92040_9
 SP221;Ladies’ linen polo shirt;Wet Sand;XS;92046;92034;24/02/2026;249;;SP221_92046_92034;3663938678689
 SP221;Ladies’ linen polo shirt;Wet Sand;S;92046;92035;24/02/2026;100;;SP221_92046_92035;3663938678764
 SP221;Ladies’ linen polo shirt;Wet Sand;M;92046;92036;24/02/2026;100;;SP221_92046_92036;3663938678849
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;S;93556;93550;10/09/2025;550;;SP303_93556_93550;3663938718774
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;M;93556;93551;10/09/2025;1098;;SP303_93556_93551;3663938718804
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;L;93556;93552;;1249;;SP303_93556_93552;3663938718835
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XL;93556;93553;10/09/2025;1248;;SP303_93556_93553;3663938718866
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XXL;93556;93554;10/09/2025;350;;SP303_93556_93554;3663938718897
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;3XL;93556;93555;10/09/2025;150;;SP303_93556_93555;3663938718927
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;S;93557;93550;10/09/2025;440;;SP303_93557_93550;3663938718781
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;M;93557;93551;10/09/2025;898;;SP303_93557_93551;3663938718811
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;L;93557;93552;10/09/2025;996;;SP303_93557_93552;3663938718842
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XL;93557;93553;10/09/2025;950;;SP303_93557_93553;3663938718873
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XXL;93557;93554;10/09/2025;250;;SP303_93557_93554;3663938718903
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;3XL;93557;93555;10/09/2025;150;;SP303_93557_93555;3663938718934
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;S;93558;93550;10/09/2025;899;;SP303_93558_93550;3663938718798
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;M;93558;93551;10/09/2025;1597;;SP303_93558_93551;3663938718828
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;L;93558;93552;;1749;;SP303_93558_93552;3663938718859
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XL;93558;93553;10/09/2025;1730;;SP303_93558_93553;3663938718880
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XXL;93558;93554;10/09/2025;500;;SP303_93558_93554;3663938718910
-SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;3XL;93558;93555;10/09/2025;240;;SP303_93558_93555;3663938718941
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;S;93556;93550;12/09/2025;550;;SP303_93556_93550;3663938718774
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;M;93556;93551;12/09/2025;1098;;SP303_93556_93551;3663938718804
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;L;93556;93552;12/09/2025;1249;;SP303_93556_93552;3663938718835
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XL;93556;93553;12/09/2025;1248;;SP303_93556_93553;3663938718866
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;XXL;93556;93554;12/09/2025;350;;SP303_93556_93554;3663938718897
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Navy Blue;3XL;93556;93555;12/09/2025;150;;SP303_93556_93555;3663938718927
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;S;93557;93550;12/09/2025;440;;SP303_93557_93550;3663938718781
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;M;93557;93551;12/09/2025;898;;SP303_93557_93551;3663938718811
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;L;93557;93552;12/09/2025;996;;SP303_93557_93552;3663938718842
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XL;93557;93553;12/09/2025;950;;SP303_93557_93553;3663938718873
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;XXL;93557;93554;12/09/2025;250;;SP303_93557_93554;3663938718903
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;Tender Green;3XL;93557;93555;12/09/2025;150;;SP303_93557_93555;3663938718934
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;S;93558;93550;12/09/2025;899;;SP303_93558_93550;3663938718798
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;M;93558;93551;12/09/2025;1597;;SP303_93558_93551;3663938718828
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;L;93558;93552;12/09/2025;1749;;SP303_93558_93552;3663938718859
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XL;93558;93553;12/09/2025;1730;;SP303_93558_93553;3663938718880
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;XXL;93558;93554;12/09/2025;500;;SP303_93558_93554;3663938718910
+SP303;Eco-friendly men's dropped shoulders raw edge collar slub t-Shirt;White;3XL;93558;93555;12/09/2025;240;;SP303_93558_93555;3663938718941
 SP320;Men's linen t-shirt;Black;S;92053;92047;24/02/2026;100;;SP320_92053_92047;3663938678931
 SP320;Men's linen t-shirt;Black;M;92053;92048;24/02/2026;100;;SP320_92053_92048;3663938678986
 SP320;Men's linen t-shirt;Black;L;92053;92049;24/02/2026;200;;SP320_92053_92049;3663938679037
@@ -341,7 +340,7 @@ SP505;Ladies’ linen shirt;Petal Rose;XL;92110;92098;24/02/2026;100;;SP505_92110_
 SP505;Ladies’ linen shirt;Petal Rose;XXL;92110;92101;24/02/2026;75;;SP505_92110_92101;3663938618197
 SP505;Ladies’ linen shirt;White;XS;92111;92091;24/02/2026;199;;SP505_92111_92091;3663938247496
 SP505;Ladies’ linen shirt;White;S;92111;92093;24/02/2026;375;;SP505_92111_92093;3663938247472
-SP505;Ladies’ linen shirt;White;M;92111;92094;24/02/2026;475;;SP505_92111_92094;3663938247465
+SP505;Ladies’ linen shirt;White;M;92111;92094;24/02/2026;450;;SP505_92111_92094;3663938247465
 SP505;Ladies’ linen shirt;White;L;92111;92097;24/02/2026;300;;SP505_92111_92097;3663938247458
 SP505;Ladies’ linen shirt;White;XL;92111;92098;24/02/2026;150;;SP505_92111_92098;3663938247489
 SP505;Ladies’ linen shirt;White;XXL;92111;92101;24/02/2026;75;;SP505_92111_92101;3663938247502
@@ -567,4 +566,3 @@ SP733;Ladies' Linen Washed Effect Trousers;Washed White;S;92243;92236;24/02/2026
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;M;92243;92237;24/02/2026;340;;SP733_92243_92237;3663938625614
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;L;92243;92238;24/02/2026;80;;SP733_92243_92238;3663938625607
 SP733;Ladies' Linen Washed Effect Trousers;Washed White;XL;92243;92239;24/02/2026;60;;SP733_92243_92239;3663938625638
-SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;XL;93548;93543;11/09/2025;15;;SP900_93548_93543;3663938718712
