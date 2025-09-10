@@ -1,7 +1,7 @@
 REF;DESIGNATION;COLOR;SIZE;COLOR CODE;SIZE CODE;DATE TO RECEIVE;QUANTITY;BARCODE;SKU;GS1_EAN13
 SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;26/09/2025;1957;;SP100_96244_96243;3663639149631
 SP120;Fouta;Cedar Brown Heather;One Size;96246;96245;26/09/2025;1956;;SP120_96246_96245;3663639149648
-SP121;Honeycomb striped plaid;Pampa Beige;One Size;96248;96247;26/09/2025;1968;;SP121_96248_96247;3663639149655
+SP121;Honeycomb striped plaid;Pampa Beige;One Size;96248;96247;26/09/2025;1969;;SP121_96248_96247;3663639149655
 SP132;Jute shopping bag;Natural;One Size;91638;91637;03/02/2026;2000;;SP132_91638_91637;3663938365428
 SP203;Eco-friendly men's knitted polo shirt;Almond Green;M;88703;13096;06/03/2026;420;;SP203_88703_13096;3663938621869
 SP203;Eco-friendly men's knitted polo shirt;Almond Green;L;88703;13097;06/03/2026;240;;SP203_88703_13097;3663938621876
@@ -305,7 +305,7 @@ SP504;Men's linen shirt;White;XXL;92018;92000;24/02/2026;100;;SP504_92018_92000;
 SP504;Men's linen shirt;White;3XL;92018;92003;24/02/2026;50;;SP504_92018_92003;3663938247274
 SP504;Men's linen shirt;Linen;XS;93455;91991;24/02/2026;100;;SP504_93455_91991;3663938617329
 SP504;Men's linen shirt;Linen;S;93455;91992;24/02/2026;400;;SP504_93455_91992;3663938247427
-SP504;Men's linen shirt;Linen;M;93455;91995;24/02/2026;1249;;SP504_93455_91995;3663938247410
+SP504;Men's linen shirt;Linen;M;93455;91995;24/02/2026;1248;;SP504_93455_91995;3663938247410
 SP504;Men's linen shirt;Linen;L;93455;91996;24/02/2026;1474;;SP504_93455_91996;3663938247403
 SP504;Men's linen shirt;Linen;XL;93455;91999;24/02/2026;739;;SP504_93455_91999;3663938247434
 SP504;Men's linen shirt;Linen;XXL;93455;92000;24/02/2026;270;;SP504_93455_92000;3663938247441
@@ -373,7 +373,7 @@ SP508;Unisex sherpa dropped shoulders overshirt;Wet Sand;XXL;96278;94060;03/11/2
 SP508;Unisex sherpa dropped shoulders overshirt;Wet Sand;3XL;96278;94061;03/11/2025;190;;SP508_96278_94061;3663639149136
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;XS;92132;92125;24/02/2026;50;;SP509_92132_92125;3663938577715
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;S;92132;92126;24/02/2026;425;;SP509_92132_92126;3663938577692
-SP509;Men's linen bowling collar short-sleeved shirt;Linen;M;92132;92127;24/02/2026;600;;SP509_92132_92127;3663938577685
+SP509;Men's linen bowling collar short-sleeved shirt;Linen;M;92132;92127;24/02/2026;599;;SP509_92132_92127;3663938577685
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;L;92132;92128;24/02/2026;774;;SP509_92132_92128;3663938577678
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;XL;92132;92129;24/02/2026;425;;SP509_92132_92129;3663938577708
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;XXL;92132;92130;24/02/2026;75;;SP509_92132_92130;3663938577722
@@ -420,7 +420,7 @@ SP518;Men's Linen Shirt;Organic Khaki;XL;89433;89428;17/11/2025;75;;SP518_89433_
 SP518;Men's Linen Shirt;Organic Khaki;XXL;89433;89429;17/11/2025;75;;SP518_89433_89429;3663938622668
 SP518;Men's Linen Shirt;Organic Khaki;3XL;89433;89430;17/11/2025;50;;SP518_89433_89430;3663938622699
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;S;89455;89450;24/12/2025;250;;SP522_89455_89450;3663938622705
-SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;M;89455;89451;24/12/2025;375;;SP522_89455_89451;3663938622729
+SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;M;89455;89451;24/12/2025;374;;SP522_89455_89451;3663938622729
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;L;89455;89452;24/12/2025;363;;SP522_89455_89452;3663938622743
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;XL;89455;89453;24/12/2025;275;;SP522_89455_89453;3663938622767
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;XXL;89455;89454;24/12/2025;150;;SP522_89455_89454;3663938622781
@@ -431,7 +431,7 @@ SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;XXL;89456;89454;24/12/2025;125;;SP522_89456_89454;3663938622798
 SP523;Ladie's Linen Bowling Collar Short-Sleeved Shirt;Ivory;XS;89462;89457;17/11/2025;50;;SP523_89462_89457;3663639130578
 SP523;Ladie's Linen Bowling Collar Short-Sleeved Shirt;Ivory;S;89462;89458;17/11/2025;150;;SP523_89462_89458;3663639130592
-SP523;Ladie's Linen Bowling Collar Short-Sleeved Shirt;Ivory;M;89462;89459;17/11/2025;150;;SP523_89462_89459;3663639130615
+SP523;Ladie's Linen Bowling Collar Short-Sleeved Shirt;Ivory;M;89462;89459;17/11/2025;149;;SP523_89462_89459;3663639130615
 SP523;Ladie's Linen Bowling Collar Short-Sleeved Shirt;Ivory;L;89462;89460;17/11/2025;25;;SP523_89462_89460;3663639130639
 SP523;Ladie's Linen Bowling Collar Short-Sleeved Shirt;Ivory;XL;89462;89461;17/11/2025;25;;SP523_89462_89461;3663639130653
 SP523;Ladie's Linen Bowling Collar Short-Sleeved Shirt;Organic Khaki;XS;89463;89457;17/11/2025;50;;SP523_89463_89457;3663639130585
