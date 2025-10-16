@@ -16,7 +16,7 @@ SP143;Unisex reversible scarf;Blue Patchwork / Blue Checkerboard;One Size;93574;
 SP144;Unisex reversible scarf;Brown Patchwork / Brown Checkboard;One Size;93576;93575;59;;SP144_93576_93575;3663639146197
 SP145;Unisex scarf;White Floral Blue;One Size;93578;93577;62;;SP145_93578_93577;3663639146203
 SP146;Unisex scarf;Blue Double Stripes;One Size;93794;93793;60;;SP146_93794_93793;3663639146210
-SP147;Unisex scarf;Brown Classic Checks;One Size;93834;93833;75;;SP147_93834_93833;3663639146227
+SP147;Unisex scarf;Brown Classic Checks;One Size;93834;93833;74;;SP147_93834_93833;3663639146227
 SP148;Unisex scarf;Sand Medallion;One Size;93853;93852;72;;SP148_93853_93852;3663639146234
 SP149;Unisex scarf;Greenish Shadow Checks;One Size;93864;93863;57;;SP149_93864_93863;3663639146241
 SP150;Unisex scarf;Blue Classic Checks;One Size;93905;93904;76;;SP150_93905_93904;3663639146258
@@ -62,7 +62,7 @@ SP202;Men’s long sleeve linen polo shirt;Navy;XXL;23578;13433;0;SP202-NAVY-XXL-2
 SP202;Men’s long sleeve linen polo shirt;Navy;S;23578;23576;0;SP202-NAVY-S-25;SP202_23578_23576;
 SP202;Men’s long sleeve linen polo shirt;Navy;3XL;23578;23577;0;SP202-NAVY-XXXL-25;SP202_23578_23577;
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;M;91988;13430;0;;SP202_91988_13430;3663938578798
-SP202;Men’s long sleeve linen polo shirt;Navy Blue;L;91988;13431;4;;SP202_91988_13431;3663938578781
+SP202;Men’s long sleeve linen polo shirt;Navy Blue;L;91988;13431;0;;SP202_91988_13431;3663938578781
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;XL;91988;13432;0;;SP202_91988_13432;3663938578811
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;XXL;91988;13433;;;SP202_91988_13433;3663938578828
 SP202;Men’s long sleeve linen polo shirt;Navy Blue;S;91988;23576;0;;SP202_91988_23576;3663938578804
@@ -84,12 +84,12 @@ SP203;Eco-friendly men's knitted polo shirt;Navy Blue;XL;88704;13098;7;;SP203_88
 SP203;Eco-friendly men's knitted polo shirt;Navy Blue;XXL;88704;13099;0;;SP203_88704_13099;3663938621944
 SP203;Eco-friendly men's knitted polo shirt;Navy Blue;S;88704;88702;0;;SP203_88704_88702;3663938621951
 SP203;Eco-friendly men's knitted polo shirt;Ivory;M;90969;13096;70;;SP203_90969_13096;3663938662534
-SP203;Eco-friendly men's knitted polo shirt;Ivory;L;90969;13097;104;;SP203_90969_13097;3663938662541
+SP203;Eco-friendly men's knitted polo shirt;Ivory;L;90969;13097;103;;SP203_90969_13097;3663938662541
 SP203;Eco-friendly men's knitted polo shirt;Ivory;XL;90969;13098;31;;SP203_90969_13098;3663938662558
 SP203;Eco-friendly men's knitted polo shirt;Ivory;XXL;90969;13099;0;;SP203_90969_13099;3663938662565
 SP203;Eco-friendly men's knitted polo shirt;Ivory;S;90969;88702;0;;SP203_90969_88702;3663938662572
 SP203;Eco-friendly men's knitted polo shirt;Organic Khaki;M;90970;13096;148;;SP203_90970_13096;3663938662589
-SP203;Eco-friendly men's knitted polo shirt;Organic Khaki;L;90970;13097;143;;SP203_90970_13097;3663938662596
+SP203;Eco-friendly men's knitted polo shirt;Organic Khaki;L;90970;13097;142;;SP203_90970_13097;3663938662596
 SP203;Eco-friendly men's knitted polo shirt;Organic Khaki;XL;90970;13098;86;;SP203_90970_13098;3663938662602
 SP203;Eco-friendly men's knitted polo shirt;Organic Khaki;XXL;90970;13099;0;;SP203_90970_13099;3663938662619
 SP203;Eco-friendly men's knitted polo shirt;Organic Khaki;S;90970;88702;2;;SP203_90970_88702;3663938662626
@@ -98,16 +98,16 @@ SP203;Eco-friendly men's knitted polo shirt;Wet Sand;L;90971;13097;162;;SP203_90
 SP203;Eco-friendly men's knitted polo shirt;Wet Sand;XL;90971;13098;76;;SP203_90971_13098;3663938662657
 SP203;Eco-friendly men's knitted polo shirt;Wet Sand;XXL;90971;13099;0;;SP203_90971_13099;3663938662664
 SP203;Eco-friendly men's knitted polo shirt;Wet Sand;S;90971;88702;0;;SP203_90971_88702;3663938662671
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;S;93538;93533;7;;SP204_93538_93533;3663938717289
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;M;93538;93534;56;;SP204_93538_93534;3663938717302
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;L;93538;93535;168;;SP204_93538_93535;3663938717326
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;XL;93538;93536;65;;SP204_93538_93536;3663938717340
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;S;93538;93533;4;;SP204_93538_93533;3663938717289
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;M;93538;93534;51;;SP204_93538_93534;3663938717302
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;L;93538;93535;162;;SP204_93538_93535;3663938717326
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;XL;93538;93536;59;;SP204_93538_93536;3663938717340
 SP204;Eco-friendly men's knitted long sleeve polo shirt;Navy Blue;XXL;93538;93537;0;;SP204_93538_93537;3663938717364
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;S;93539;93533;9;;SP204_93539_93533;3663938717296
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;M;93539;93534;145;;SP204_93539_93534;3663938717319
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;L;93539;93535;176;;SP204_93539_93535;3663938717333
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;XL;93539;93536;88;;SP204_93539_93536;3663938717357
-SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;XXL;93539;93537;12;;SP204_93539_93537;3663938717371
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;S;93539;93533;6;;SP204_93539_93533;3663938717296
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;M;93539;93534;140;;SP204_93539_93534;3663938717319
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;L;93539;93535;172;;SP204_93539_93535;3663938717333
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;XL;93539;93536;82;;SP204_93539_93536;3663938717357
+SP204;Eco-friendly men's knitted long sleeve polo shirt;Organic Khaki;XXL;93539;93537;9;;SP204_93539_93537;3663938717371
 SP217;Men's knitted linen polo shirt;Linen Sand;S;89392;89386;14;;SP217_89392_89386;3663938621968
 SP217;Men's knitted linen polo shirt;Linen Sand;M;89392;89387;59;;SP217_89392_89387;3663938621999
 SP217;Men's knitted linen polo shirt;Linen Sand;L;89392;89388;69;;SP217_89392_89388;3663938622026
@@ -116,7 +116,7 @@ SP217;Men's knitted linen polo shirt;Linen Sand;XXL;89392;89390;5;;SP217_89392_8
 SP217;Men's knitted linen polo shirt;Linen Sand;3XL;89392;89391;13;;SP217_89392_89391;3663938622118
 SP217;Men's knitted linen polo shirt;Navy Blue;S;89393;89386;24;;SP217_89393_89386;3663938621975
 SP217;Men's knitted linen polo shirt;Navy Blue;M;89393;89387;105;;SP217_89393_89387;3663938622002
-SP217;Men's knitted linen polo shirt;Navy Blue;L;89393;89388;109;;SP217_89393_89388;3663938622033
+SP217;Men's knitted linen polo shirt;Navy Blue;L;89393;89388;108;;SP217_89393_89388;3663938622033
 SP217;Men's knitted linen polo shirt;Navy Blue;XL;89393;89389;111;;SP217_89393_89389;3663938622064
 SP217;Men's knitted linen polo shirt;Navy Blue;XXL;89393;89390;11;;SP217_89393_89390;3663938622095
 SP217;Men's knitted linen polo shirt;Navy Blue;3XL;89393;89391;18;;SP217_89393_89391;3663938622125
@@ -148,7 +148,7 @@ SP220;Men’s linen polo shirt;Light Olive Green;S;92028;92019;71;;SP220_92028_920
 SP220;Men’s linen polo shirt;Light Olive Green;M;92028;92020;482;;SP220_92028_92020;3663938677897
 SP220;Men’s linen polo shirt;Light Olive Green;L;92028;92021;391;;SP220_92028_92021;3663938677989
 SP220;Men’s linen polo shirt;Light Olive Green;XL;92028;92022;279;;SP220_92028_92022;3663938678078
-SP220;Men’s linen polo shirt;Light Olive Green;XXL;92028;92023;111;;SP220_92028_92023;3663938678160
+SP220;Men’s linen polo shirt;Light Olive Green;XXL;92028;92023;110;;SP220_92028_92023;3663938678160
 SP220;Men’s linen polo shirt;Light Olive Green;3XL;92028;92024;75;;SP220_92028_92024;3663938678252
 SP220;Men’s linen polo shirt;Navy Blue;S;92029;92019;0;;SP220_92029_92019;3663938677811
 SP220;Men’s linen polo shirt;Navy Blue;M;92029;92020;0;;SP220_92029_92020;3663938677903
@@ -158,7 +158,7 @@ SP220;Men’s linen polo shirt;Navy Blue;XXL;92029;92023;0;;SP220_92029_92023;3663
 SP220;Men’s linen polo shirt;Navy Blue;3XL;92029;92024;0;;SP220_92029_92024;3663938678269
 SP220;Men’s linen polo shirt;Organic Khaki;S;92030;92019;0;;SP220_92030_92019;3663938677828
 SP220;Men’s linen polo shirt;Organic Khaki;M;92030;92020;240;;SP220_92030_92020;3663938677910
-SP220;Men’s linen polo shirt;Organic Khaki;L;92030;92021;184;;SP220_92030_92021;3663938678009
+SP220;Men’s linen polo shirt;Organic Khaki;L;92030;92021;183;;SP220_92030_92021;3663938678009
 SP220;Men’s linen polo shirt;Organic Khaki;XL;92030;92022;58;;SP220_92030_92022;3663938678092
 SP220;Men’s linen polo shirt;Organic Khaki;XXL;92030;92023;0;;SP220_92030_92023;3663938678184
 SP220;Men’s linen polo shirt;Organic Khaki;3XL;92030;92024;6;;SP220_92030_92024;3663938678276
@@ -198,7 +198,7 @@ SP221;Ladies’ linen polo shirt;Navy Blue;M;92042;92036;0;;SP221_92042_92036;3663
 SP221;Ladies’ linen polo shirt;Navy Blue;L;92042;92037;26;;SP221_92042_92037;3663938678887
 SP221;Ladies’ linen polo shirt;Organic Khaki;XS;92043;92034;79;;SP221_92043_92034;3663938678658
 SP221;Ladies’ linen polo shirt;Organic Khaki;S;92043;92035;525;;SP221_92043_92035;3663938678733
-SP221;Ladies’ linen polo shirt;Organic Khaki;M;92043;92036;547;;SP221_92043_92036;3663938678818
+SP221;Ladies’ linen polo shirt;Organic Khaki;M;92043;92036;546;;SP221_92043_92036;3663938678818
 SP221;Ladies’ linen polo shirt;Organic Khaki;L;92043;92037;380;;SP221_92043_92037;3663938678894
 SP221;Ladies’ linen polo shirt;Peacock Blue;XS;92044;92034;0;;SP221_92044_92034;3663938678665
 SP221;Ladies’ linen polo shirt;Peacock Blue;S;92044;92035;249;;SP221_92044_92035;3663938678740
@@ -254,17 +254,17 @@ SP304;Eco-friendly ladies' oversize slub t-shirt;Antique Rose;XS;93564;93559;148
 SP304;Eco-friendly ladies' oversize slub t-shirt;Antique Rose;S;93564;93560;336;;SP304_93564_93560;3663938718989
 SP304;Eco-friendly ladies' oversize slub t-shirt;Antique Rose;M;93564;93561;498;;SP304_93564_93561;3663938719016
 SP304;Eco-friendly ladies' oversize slub t-shirt;Antique Rose;L;93564;93562;146;;SP304_93564_93562;3663938719047
-SP304;Eco-friendly ladies' oversize slub t-shirt;Antique Rose;XL;93564;93563;48;;SP304_93564_93563;3663938719078
+SP304;Eco-friendly ladies' oversize slub t-shirt;Antique Rose;XL;93564;93563;47;;SP304_93564_93563;3663938719078
 SP304;Eco-friendly ladies' oversize slub t-shirt;Black;XS;93565;93559;146;;SP304_93565_93559;3663938718965
 SP304;Eco-friendly ladies' oversize slub t-shirt;Black;S;93565;93560;388;;SP304_93565_93560;3663938718996
 SP304;Eco-friendly ladies' oversize slub t-shirt;Black;M;93565;93561;496;;SP304_93565_93561;3663938719023
 SP304;Eco-friendly ladies' oversize slub t-shirt;Black;L;93565;93562;147;;SP304_93565_93562;3663938719054
-SP304;Eco-friendly ladies' oversize slub t-shirt;Black;XL;93565;93563;44;;SP304_93565_93563;3663938719085
+SP304;Eco-friendly ladies' oversize slub t-shirt;Black;XL;93565;93563;42;;SP304_93565_93563;3663938719085
 SP304;Eco-friendly ladies' oversize slub t-shirt;White;XS;93566;93559;346;;SP304_93566_93559;3663938718972
 SP304;Eco-friendly ladies' oversize slub t-shirt;White;S;93566;93560;773;;SP304_93566_93560;3663938719009
 SP304;Eco-friendly ladies' oversize slub t-shirt;White;M;93566;93561;795;;SP304_93566_93561;3663938719030
 SP304;Eco-friendly ladies' oversize slub t-shirt;White;L;93566;93562;246;;SP304_93566_93562;3663938719061
-SP304;Eco-friendly ladies' oversize slub t-shirt;White;XL;93566;93563;92;;SP304_93566_93563;3663938719092
+SP304;Eco-friendly ladies' oversize slub t-shirt;White;XL;93566;93563;90;;SP304_93566_93563;3663938719092
 SP320;Men's linen t-shirt;Black;S;92053;92047;127;;SP320_92053_92047;3663938678931
 SP320;Men's linen t-shirt;Black;M;92053;92048;378;;SP320_92053_92048;3663938678986
 SP320;Men's linen t-shirt;Black;L;92053;92049;397;;SP320_92053_92049;3663938679037
@@ -470,7 +470,7 @@ SP504;Men's linen shirt;Adriatic Blue;XL;92004;91999;52;;SP504_92004_91999;36639
 SP504;Men's linen shirt;Adriatic Blue;XXL;92004;92000;0;;SP504_92004_92000;3663938617398
 SP504;Men's linen shirt;Adriatic Blue;3XL;92004;92003;9;;SP504_92004_92003;3663938617343
 SP504;Men's linen shirt;Almond Green;XS;92005;91991;0;;SP504_92005_91991;3663938676029
-SP504;Men's linen shirt;Almond Green;S;92005;91992;54;;SP504_92005_91992;3663938438979
+SP504;Men's linen shirt;Almond Green;S;92005;91992;53;;SP504_92005_91992;3663938438979
 SP504;Men's linen shirt;Almond Green;M;92005;91995;238;;SP504_92005_91995;3663938438962
 SP504;Men's linen shirt;Almond Green;L;92005;91996;196;;SP504_92005_91996;3663938438955
 SP504;Men's linen shirt;Almond Green;XL;92005;91999;123;;SP504_92005_91999;3663938438986
@@ -574,7 +574,7 @@ SP505;Ladies’ linen shirt;Anthracite Grey;L;92102;92097;54;;SP505_92102_92097;36
 SP505;Ladies’ linen shirt;Anthracite Grey;XL;92102;92098;0;;SP505_92102_92098;3663938617930
 SP505;Ladies’ linen shirt;Anthracite Grey;XXL;92102;92101;0;;SP505_92102_92101;3663938617954
 SP505;Ladies’ linen shirt;Black;XS;92103;92091;0;;SP505_92103_92091;3663938618005
-SP505;Ladies’ linen shirt;Black;S;92103;92093;66;;SP505_92103_92093;3663938617985
+SP505;Ladies’ linen shirt;Black;S;92103;92093;65;;SP505_92103_92093;3663938617985
 SP505;Ladies’ linen shirt;Black;M;92103;92094;103;;SP505_92103_92094;3663938617978
 SP505;Ladies’ linen shirt;Black;L;92103;92097;30;;SP505_92103_92097;3663938617961
 SP505;Ladies’ linen shirt;Black;XL;92103;92098;0;;SP505_92103_92098;3663938617992
@@ -726,7 +726,7 @@ SP512;Kids’ linen shirt;White;8/10 ans;92139;92136;14;;SP512_92139_92136;3663938
 SP512;Kids’ linen shirt;White;10/12 ans;92139;92137;9;;SP512_92139_92137;3663938577777
 SP513;Eco-friendly men’s lyocell shirt;Washed Dark Navy;S;92146;92140;9;;SP513_92146_92140;3663938329567
 SP513;Eco-friendly men’s lyocell shirt;Washed Dark Navy;M;92146;92141;216;;SP513_92146_92141;3663938329550
-SP513;Eco-friendly men’s lyocell shirt;Washed Dark Navy;L;92146;92142;434;;SP513_92146_92142;3663938329543
+SP513;Eco-friendly men’s lyocell shirt;Washed Dark Navy;L;92146;92142;432;;SP513_92146_92142;3663938329543
 SP513;Eco-friendly men’s lyocell shirt;Washed Dark Navy;XL;92146;92143;0;;SP513_92146_92143;3663938329574
 SP513;Eco-friendly men’s lyocell shirt;Washed Dark Navy;XXL;92146;92144;48;;SP513_92146_92144;3663938329581
 SP513;Eco-friendly men’s lyocell shirt;Washed Dark Navy;3XL;92146;92145;96;;SP513_92146_92145;3663938329536
@@ -738,7 +738,7 @@ SP513;Eco-friendly men’s lyocell shirt;Washed Organic Khaki;XXL;92147;92144;16;;
 SP513;Eco-friendly men’s lyocell shirt;Washed Organic Khaki;3XL;92147;92145;0;;SP513_92147_92145;3663938329598
 SP513;Eco-friendly men’s lyocell shirt;Washed White;S;92148;92140;87;;SP513_92148_92140;3663938329680
 SP513;Eco-friendly men’s lyocell shirt;Washed White;M;92148;92141;258;;SP513_92148_92141;3663938329673
-SP513;Eco-friendly men’s lyocell shirt;Washed White;L;92148;92142;553;;SP513_92148_92142;3663938329666
+SP513;Eco-friendly men’s lyocell shirt;Washed White;L;92148;92142;551;;SP513_92148_92142;3663938329666
 SP513;Eco-friendly men’s lyocell shirt;Washed White;XL;92148;92143;0;;SP513_92148_92143;3663938329697
 SP513;Eco-friendly men’s lyocell shirt;Washed White;XXL;92148;92144;45;;SP513_92148_92144;3663938329703
 SP513;Eco-friendly men’s lyocell shirt;Washed White;3XL;92148;92145;100;;SP513_92148_92145;3663938329659
@@ -767,7 +767,7 @@ SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed 
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Organic Khaki;M;92163;92159;350;;SP515_92163_92159;3663938365220
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Organic Khaki;L;92163;92160;164;;SP515_92163_92160;3663938365213
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed Organic Khaki;XL;92163;92161;81;;SP515_92163_92161;3663938365244
-SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed White;XS;92164;92157;40;;SP515_92164_92157;3663938365305
+SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed White;XS;92164;92157;41;;SP515_92164_92157;3663938365305
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed White;S;92164;92158;0;;SP515_92164_92158;3663938365282
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed White;M;92164;92159;0;;SP515_92164_92159;3663938365275
 SP515;Eco-friendly ladies' washed effect lyocell dropped shoulders shirt;Washed White;L;92164;92160;0;;SP515_92164_92160;3663938365268
@@ -828,16 +828,16 @@ SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XXL
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XS;89439;93458;112;;SP519_89439_93458;3663938626475
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;3XL;89439;93459;73;;SP519_89439_93459;3663938626420
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;S;89440;89434;326;;SP519_89440_89434;3663639129916
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;M;89440;89435;619;;SP519_89440_89435;3663639129947
+SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;M;89440;89435;618;;SP519_89440_89435;3663639129947
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;L;89440;89436;653;;SP519_89440_89436;3663639129978
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;XL;89440;89437;413;;SP519_89440_89437;3663639130004
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;XXL;89440;89438;204;;SP519_89440_89438;3663639130035
+SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;XXL;89440;89438;203;;SP519_89440_89438;3663639130035
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;XS;89440;93458;119;;SP519_89440_93458;3663938626543
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;3XL;89440;93459;46;;SP519_89440_93459;3663938626499
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;S;89441;89434;330;;SP519_89441_89434;3663639129923
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;M;89441;89435;610;;SP519_89441_89435;3663639129954
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;L;89441;89436;666;;SP519_89441_89436;3663639129985
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;XL;89441;89437;427;;SP519_89441_89437;3663639130011
+SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;M;89441;89435;607;;SP519_89441_89435;3663639129954
+SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;L;89441;89436;664;;SP519_89441_89436;3663639129985
+SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;XL;89441;89437;426;;SP519_89441_89437;3663639130011
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;XXL;89441;89438;240;;SP519_89441_89438;3663639130042
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;XS;89441;93458;104;;SP519_89441_93458;3663938626611
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Pale Khaki;3XL;89441;93459;74;;SP519_89441_93459;3663938626567
@@ -945,7 +945,7 @@ SP710;Men's Linen Trousers;Navy Blue;50 FR;92197;92195;0;;SP710_92197_92195;3663
 SP710;Men's Linen Trousers;White;36 FR;92198;92188;2;;SP710_92198_92188;3663938577036
 SP710;Men's Linen Trousers;White;38 FR;92198;92189;46;;SP710_92198_92189;3663938577043
 SP710;Men's Linen Trousers;White;40 FR;92198;92190;169;;SP710_92198_92190;3663938577050
-SP710;Men's Linen Trousers;White;42 FR;92198;92191;226;;SP710_92198_92191;3663938577067
+SP710;Men's Linen Trousers;White;42 FR;92198;92191;225;;SP710_92198_92191;3663938577067
 SP710;Men's Linen Trousers;White;44 FR;92198;92192;165;;SP710_92198_92192;3663938577074
 SP710;Men's Linen Trousers;White;46 FR;92198;92193;34;;SP710_92198_92193;3663938577081
 SP710;Men's Linen Trousers;White;48 FR;92198;92194;0;;SP710_92198_92194;3663938577098
@@ -961,7 +961,7 @@ SP711;Men's Linen Bermuda;Linen Sand;50 FR;92207;92206;1;;SP711_92207_92206;3663
 SP711;Men's Linen Bermuda;Navy Blue;36 FR;92208;92199;87;;SP711_92208_92199;3663938577197
 SP711;Men's Linen Bermuda;Navy Blue;38 FR;92208;92200;185;;SP711_92208_92200;3663938577203
 SP711;Men's Linen Bermuda;Navy Blue;40 FR;92208;92201;317;;SP711_92208_92201;3663938577210
-SP711;Men's Linen Bermuda;Navy Blue;42 FR;92208;92202;464;;SP711_92208_92202;3663938577227
+SP711;Men's Linen Bermuda;Navy Blue;42 FR;92208;92202;463;;SP711_92208_92202;3663938577227
 SP711;Men's Linen Bermuda;Navy Blue;44 FR;92208;92203;479;;SP711_92208_92203;3663938577234
 SP711;Men's Linen Bermuda;Navy Blue;46 FR;92208;92204;289;;SP711_92208_92204;3663938577241
 SP711;Men's Linen Bermuda;Navy Blue;48 FR;92208;92205;157;;SP711_92208_92205;3663938577258
@@ -1009,20 +1009,20 @@ SP723;Ladie's Linen Shorts;Organic Khaki;M;89470;89466;0;;SP723_89470_89466;3663
 SP723;Ladie's Linen Shorts;Organic Khaki;L;89470;89467;0;;SP723_89470_89467;3663639130547
 SP723;Ladie's Linen Shorts;Organic Khaki;XL;89470;89468;0;;SP723_89470_89468;3663639130561
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;XS;92224;92218;75;;SP724_92224_92218;3663938347844
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;S;92224;92219;191;;SP724_92224_92219;3663938347820
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;M;92224;92220;264;;SP724_92224_92220;3663938347813
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;L;92224;92221;269;;SP724_92224_92221;3663938347806
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;XL;92224;92222;76;;SP724_92224_92222;3663938347837
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;S;92224;92219;184;;SP724_92224_92219;3663938347820
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;M;92224;92220;263;;SP724_92224_92220;3663938347813
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;L;92224;92221;266;;SP724_92224_92221;3663938347806
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;XL;92224;92222;74;;SP724_92224_92222;3663938347837
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Navy Blue;XXL;92224;92223;107;;SP724_92224_92223;3663938347851
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;XS;92225;92218;270;;SP724_92225_92218;3663938347905
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;S;92225;92219;319;;SP724_92225_92219;3663938347882
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;M;92225;92220;762;;SP724_92225_92220;3663938347875
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;L;92225;92221;469;;SP724_92225_92221;3663938347868
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;XL;92225;92222;222;;SP724_92225_92222;3663938347899
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;XXL;92225;92223;121;;SP724_92225_92223;3663938347912
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;S;92225;92219;316;;SP724_92225_92219;3663938347882
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;M;92225;92220;759;;SP724_92225_92220;3663938347875
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;L;92225;92221;464;;SP724_92225_92221;3663938347868
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;XL;92225;92222;220;;SP724_92225_92222;3663938347899
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Organic Khaki;XXL;92225;92223;90;;SP724_92225_92223;3663938347912
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Wet Sand;XS;92226;92218;23;;SP724_92226_92218;3663938347783
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Wet Sand;S;92226;92219;0;;SP724_92226_92219;3663938347769
-SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Wet Sand;M;92226;92220;75;;SP724_92226_92220;3663938347752
+SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Wet Sand;M;92226;92220;74;;SP724_92226_92220;3663938347752
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Wet Sand;L;92226;92221;98;;SP724_92226_92221;3663938347745
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Wet Sand;XL;92226;92222;0;;SP724_92226_92222;3663938347776
 SP724;Eco-friendly ladies’ washed effect lyocell trousers;Washed Wet Sand;XXL;92226;92223;0;;SP724_92226_92223;3663938347790
@@ -1032,7 +1032,7 @@ SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Navy Blue;M;922
 SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Navy Blue;L;92233;92230;451;;SP725_92233_92230;3663938336596
 SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Navy Blue;XL;92233;92231;161;;SP725_92233_92231;3663938336626
 SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Organic Khaki;XS;92234;92227;194;;SP725_92234_92227;3663938336695
-SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Organic Khaki;S;92234;92228;470;;SP725_92234_92228;3663938336671
+SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Organic Khaki;S;92234;92228;471;;SP725_92234_92228;3663938336671
 SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Organic Khaki;M;92234;92229;364;;SP725_92234_92229;3663938336664
 SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Organic Khaki;L;92234;92230;288;;SP725_92234_92230;3663938336657
 SP725;Eco-friendly Ladies' Washed Effect Lyocell Trousers;Washed Organic Khaki;XL;92234;92231;154;;SP725_92234_92231;3663938336688
@@ -1117,22 +1117,22 @@ SP742;Eco-friendly men's corduroy shorts;Pale Khaki;46 FR;89490;89485;121;;SP742
 SP742;Eco-friendly men's corduroy shorts;Pale Khaki;48 FR;89490;89486;56;;SP742_89490_89486;3663639130226
 SP742;Eco-friendly men's corduroy shorts;Pale Khaki;50 FR;89490;89487;51;;SP742_89490_89487;3663639130257
 SP743;Eco-friendly men's corduroy trousers;Dark camel;38 FR;89498;89491;291;;SP743_89498_89491;3663639130264
-SP743;Eco-friendly men's corduroy trousers;Dark camel;40 FR;89498;89492;442;;SP743_89498_89492;3663639130295
+SP743;Eco-friendly men's corduroy trousers;Dark camel;40 FR;89498;89492;440;;SP743_89498_89492;3663639130295
 SP743;Eco-friendly men's corduroy trousers;Dark camel;42 FR;89498;89493;568;;SP743_89498_89493;3663639130325
-SP743;Eco-friendly men's corduroy trousers;Dark camel;44 FR;89498;89494;342;;SP743_89498_89494;3663639130356
+SP743;Eco-friendly men's corduroy trousers;Dark camel;44 FR;89498;89494;341;;SP743_89498_89494;3663639130356
 SP743;Eco-friendly men's corduroy trousers;Dark camel;46 FR;89498;89495;219;;SP743_89498_89495;3663639130387
 SP743;Eco-friendly men's corduroy trousers;Dark camel;48 FR;89498;89496;111;;SP743_89498_89496;3663639130417
 SP743;Eco-friendly men's corduroy trousers;Dark camel;50 FR;89498;89497;94;;SP743_89498_89497;3663639130448
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;38 FR;89499;89491;292;;SP743_89499_89491;3663639130271
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;40 FR;89499;89492;450;;SP743_89499_89492;3663639130301
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;42 FR;89499;89493;573;;SP743_89499_89493;3663639130332
-SP743;Eco-friendly men's corduroy trousers;Navy Blue;44 FR;89499;89494;345;;SP743_89499_89494;3663639130363
+SP743;Eco-friendly men's corduroy trousers;Navy Blue;44 FR;89499;89494;344;;SP743_89499_89494;3663639130363
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;46 FR;89499;89495;225;;SP743_89499_89495;3663639130394
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;48 FR;89499;89496;113;;SP743_89499_89496;3663639130424
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;50 FR;89499;89497;93;;SP743_89499_89497;3663639130455
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;38 FR;89500;89491;308;;SP743_89500_89491;3663639130288
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;40 FR;89500;89492;448;;SP743_89500_89492;3663639130318
-SP743;Eco-friendly men's corduroy trousers;Pale Khaki;42 FR;89500;89493;553;;SP743_89500_89493;3663639130349
+SP743;Eco-friendly men's corduroy trousers;Pale Khaki;42 FR;89500;89493;551;;SP743_89500_89493;3663639130349
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;44 FR;89500;89494;329;;SP743_89500_89494;3663639130370
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;46 FR;89500;89495;219;;SP743_89500_89495;3663639130400
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;48 FR;89500;89496;113;;SP743_89500_89496;3663639130431
@@ -1209,7 +1209,7 @@ SP800;Eco-friendly unisex socks;Navy Blue Heather;43/45 EU;92269;92246;65;;SP800
 SP800;Eco-friendly unisex socks;Organic Khaki;39/41 EU;92270;92244;73;;SP800_92270_92244;3663938282909
 SP800;Eco-friendly unisex socks;Organic Khaki;41/43 EU;92270;92245;24;;SP800_92270_92245;3663938282916
 SP800;Eco-friendly unisex socks;Organic Khaki;43/45 EU;92270;92246;79;;SP800_92270_92246;3663938282923
-SP800;Eco-friendly unisex socks;Organic Khaki Heather;39/41 EU;92271;92244;99;;SP800_92271_92244;3663938282879
+SP800;Eco-friendly unisex socks;Organic Khaki Heather;39/41 EU;92271;92244;92;;SP800_92271_92244;3663938282879
 SP800;Eco-friendly unisex socks;Organic Khaki Heather;41/43 EU;92271;92245;87;;SP800_92271_92245;3663938282886
 SP800;Eco-friendly unisex socks;Organic Khaki Heather;43/45 EU;92271;92246;113;;SP800_92271_92246;3663938282893
 SP800;Eco-friendly unisex socks;Paprika;39/41 EU;92272;92244;77;;SP800_92272_92244;3663938282930
@@ -1247,7 +1247,7 @@ SP800;Eco-friendly unisex socks;White;41/43 EU;92282;92245;0;;SP800_92282_92245;
 SP800;Eco-friendly unisex socks;White;43/45 EU;92282;92246;24;;SP800_92282_92246;3663938283258
 SP900;Eco-friendly Men's Round Neck Jumper;Black;S;93546;93540;168;;SP900_93546_93540;3663938718576
 SP900;Eco-friendly Men's Round Neck Jumper;Black;M;93546;93541;559;;SP900_93546_93541;3663938718613
-SP900;Eco-friendly Men's Round Neck Jumper;Black;L;93546;93542;677;;SP900_93546_93542;3663938718651
+SP900;Eco-friendly Men's Round Neck Jumper;Black;L;93546;93542;676;;SP900_93546_93542;3663938718651
 SP900;Eco-friendly Men's Round Neck Jumper;Black;XL;93546;93543;358;;SP900_93546_93543;3663938718699
 SP900;Eco-friendly Men's Round Neck Jumper;Black;XXL;93546;93544;148;;SP900_93546_93544;3663938718736
 SP900;Eco-friendly Men's Round Neck Jumper;Black;3XL;93546;93545;30;;SP900_93546_93545;3663938719108
@@ -1258,14 +1258,14 @@ SP900;Eco-friendly Men's Round Neck Jumper;Navy Blue;XL;93547;93543;316;;SP900_9
 SP900;Eco-friendly Men's Round Neck Jumper;Navy Blue;XXL;93547;93544;119;;SP900_93547_93544;3663938718743
 SP900;Eco-friendly Men's Round Neck Jumper;Navy Blue;3XL;93547;93545;14;;SP900_93547_93545;3663938719115
 SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;S;93548;93540;119;;SP900_93548_93540;3663938718590
-SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;M;93548;93541;415;;SP900_93548_93541;3663938718637
+SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;M;93548;93541;414;;SP900_93548_93541;3663938718637
 SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;L;93548;93542;467;;SP900_93548_93542;3663938718675
 SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;XL;93548;93543;236;;SP900_93548_93543;3663938718712
 SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;XXL;93548;93544;74;;SP900_93548_93544;3663938718750
 SP900;Eco-friendly Men's Round Neck Jumper;Organic Khaki;3XL;93548;93545;25;;SP900_93548_93545;3663938719122
 SP900;Eco-friendly Men's Round Neck Jumper;Wet Sand;S;93549;93540;111;;SP900_93549_93540;3663938718606
 SP900;Eco-friendly Men's Round Neck Jumper;Wet Sand;M;93549;93541;468;;SP900_93549_93541;3663938718644
-SP900;Eco-friendly Men's Round Neck Jumper;Wet Sand;L;93549;93542;467;;SP900_93549_93542;3663938718682
+SP900;Eco-friendly Men's Round Neck Jumper;Wet Sand;L;93549;93542;465;;SP900_93549_93542;3663938718682
 SP900;Eco-friendly Men's Round Neck Jumper;Wet Sand;XL;93549;93543;238;;SP900_93549_93543;3663938718729
 SP900;Eco-friendly Men's Round Neck Jumper;Wet Sand;XXL;93549;93544;57;;SP900_93549_93544;3663938718767
 SP900;Eco-friendly Men's Round Neck Jumper;Wet Sand;3XL;93549;93545;0;;SP900_93549_93545;3663938719139
@@ -1277,8 +1277,8 @@ SP901;Men's jumper with polo collar;Ivory;XXL;94220;94219;16;;SP901_94220_94219;
 SP901;Men's jumper with polo collar;Navy Blue;S;94221;94215;12;;SP901_94221_94215;3663938718293
 SP901;Men's jumper with polo collar;Navy Blue;M;94221;94216;79;;SP901_94221_94216;3663938718323
 SP901;Men's jumper with polo collar;Navy Blue;L;94221;94217;80;;SP901_94221_94217;3663938718354
-SP901;Men's jumper with polo collar;Navy Blue;XL;94221;94218;8;;SP901_94221_94218;3663938718385
-SP901;Men's jumper with polo collar;Navy Blue;XXL;94221;94219;6;;SP901_94221_94219;3663938718415
+SP901;Men's jumper with polo collar;Navy Blue;XL;94221;94218;7;;SP901_94221_94218;3663938718385
+SP901;Men's jumper with polo collar;Navy Blue;XXL;94221;94219;5;;SP901_94221_94219;3663938718415
 SP901;Men's jumper with polo collar;Organic Khaki;S;94222;94215;0;;SP901_94222_94215;3663938718309
 SP901;Men's jumper with polo collar;Organic Khaki;M;94222;94216;74;;SP901_94222_94216;3663938718330
 SP901;Men's jumper with polo collar;Organic Khaki;L;94222;94217;78;;SP901_94222_94217;3663938718361
@@ -1310,7 +1310,7 @@ SP921;Eco-friendly ladies’ V-neck lyocell jumper;Gemstone Green;XL;91976;91973;1
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Gemstone Green;XXL;91976;91974;137;;SP921_91976_91974;3663938327532
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Ivory;XS;91977;91969;3;;SP921_91977_91969;3663938327587
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Ivory;S;91977;91970;0;;SP921_91977_91970;3663938327563
-SP921;Eco-friendly ladies’ V-neck lyocell jumper;Ivory;M;91977;91971;13;;SP921_91977_91971;3663938327556
+SP921;Eco-friendly ladies’ V-neck lyocell jumper;Ivory;M;91977;91971;10;;SP921_91977_91971;3663938327556
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Ivory;L;91977;91972;31;;SP921_91977_91972;3663938327549
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Ivory;XL;91977;91973;106;;SP921_91977_91973;3663938327570
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Ivory;XXL;91977;91974;152;;SP921_91977_91974;3663938327594
@@ -1321,8 +1321,8 @@ SP921;Eco-friendly ladies’ V-neck lyocell jumper;Navy Blue;L;91978;91972;108;;SP
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Navy Blue;XL;91978;91973;85;;SP921_91978_91973;3663938327631
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Navy Blue;XXL;91978;91974;120;;SP921_91978_91974;3663938327655
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;XS;91985;91979;96;;SP922_91985_91979;3663938327709
-SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;S;91985;91980;85;;SP922_91985_91980;3663938327686
-SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;M;91985;91981;164;;SP922_91985_91981;3663938327679
+SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;S;91985;91980;84;;SP922_91985_91980;3663938327686
+SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;M;91985;91981;162;;SP922_91985_91981;3663938327679
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;L;91985;91982;157;;SP922_91985_91982;3663938327662
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;XL;91985;91983;61;;SP922_91985_91983;3663938327693
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;XXL;91985;91984;118;;SP922_91985_91984;3663938327716
