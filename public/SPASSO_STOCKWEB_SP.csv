@@ -1,7 +1,7 @@
 REF;DESIGNATION;COLOR;SIZE;COLOR CODE;SIZE CODE;QUANTITY;BARCODE;SKU;GS1_EAN13
 SP100;Striped Fouta;Olive Green Heather;One Size;96244;96243;2002;;SP100_96244_96243;3663639149631
 SP120;Fouta;Cedar Brown Heather;One Size;96246;96245;1973;;SP120_96246_96245;3663639149648
-SP121;Honeycomb striped plaid;Pampa Beige;One Size;96248;96247;1955;;SP121_96248_96247;3663639149655
+SP121;Honeycomb striped plaid;Pampa Beige;One Size;96248;96247;1954;;SP121_96248_96247;3663639149655
 SP122;Linen shopping bag;Black;One Size;91631;91630;1788;;SP122_91631_91630;3663938365367
 SP122;Linen shopping bag;Ivory;One Size;91632;91630;1666;;SP122_91632_91630;3663938365374
 SP122;Linen shopping bag;Jade Green;One Size;91633;91630;0;;SP122_91633_91630;3663938365381
@@ -14,14 +14,14 @@ SP141;Unisex scarf;Marine Twill Stripes;One Size;93570;93569;40;;SP141_93570_935
 SP142;Unisex reversible scarf;Blue Stripes / Brown Herringbone;One Size;93572;93571;49;;SP142_93572_93571;3663639146173
 SP143;Unisex reversible scarf;Blue Patchwork / Blue Checkerboard;One Size;93574;93573;67;;SP143_93574_93573;3663639146180
 SP144;Unisex reversible scarf;Brown Patchwork / Brown Checkboard;One Size;93576;93575;48;;SP144_93576_93575;3663639146197
-SP145;Unisex scarf;White Floral Blue;One Size;93578;93577;56;;SP145_93578_93577;3663639146203
+SP145;Unisex scarf;White Floral Blue;One Size;93578;93577;55;;SP145_93578_93577;3663639146203
 SP146;Unisex scarf;Blue Double Stripes;One Size;93794;93793;34;;SP146_93794_93793;3663639146210
 SP147;Unisex scarf;Brown Classic Checks;One Size;93834;93833;67;;SP147_93834_93833;3663639146227
 SP148;Unisex scarf;Sand Medallion;One Size;93853;93852;65;;SP148_93853_93852;3663639146234
 SP149;Unisex scarf;Greenish Shadow Checks;One Size;93864;93863;52;;SP149_93864_93863;3663639146241
 SP150;Unisex scarf;Blue Classic Checks;One Size;93905;93904;71;;SP150_93905_93904;3663639146258
 SP151;Unisex scarf;Urban Grey Stripes;One Size;93925;93924;49;;SP151_93925_93924;3663639146265
-SP152;Unisex scarf;Blue Checks;One Size;93936;93935;43;;SP152_93936_93935;3663639146272
+SP152;Unisex scarf;Blue Checks;One Size;93936;93935;42;;SP152_93936_93935;3663639146272
 SP153;Unisex scarf;Green Sunburst;One Size;93938;93937;58;;SP153_93938_93937;3663639146289
 SP154;Unisex scarf;Olive Crosschecks Marine;One Size;93940;93939;39;;SP154_93940_93939;3663639146296
 SP155;Unisex scarf;Graphite Ink Stripes;One Size;93942;93941;28;;SP155_93942_93941;3663639146302
@@ -824,7 +824,7 @@ SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;S;8
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;M;89439;89435;586;;SP519_89439_89435;3663639129930
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;L;89439;89436;622;;SP519_89439_89436;3663639129961
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XL;89439;89437;378;;SP519_89439_89437;3663639129992
-SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XXL;89439;89438;220;;SP519_89439_89438;3663639130028
+SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XXL;89439;89438;219;;SP519_89439_89438;3663639130028
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;XS;89439;93458;110;;SP519_89439_93458;3663938626475
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Brown Sugar;3XL;89439;93459;70;;SP519_89439_93459;3663938626420
 SP519;Eco-friendly men's washed effect corduroy overshirt;Washed Navy Blue;S;89440;89434;325;;SP519_89440_89434;3663639129916
@@ -915,7 +915,7 @@ SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XS;92181;921
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;S;92181;92174;286;;SP708_92181_92174;3663938328478
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;M;92181;92175;517;;SP708_92181_92175;3663938328461
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;L;92181;92176;602;;SP708_92181_92176;3663938328454
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XL;92181;92177;308;;SP708_92181_92177;3663938328485
+SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XL;92181;92177;307;;SP708_92181_92177;3663938328485
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XXL;92181;92178;155;;SP708_92181_92178;3663938328508
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;3XL;92181;92179;113;;SP708_92181_92179;3663938328447
 SP709;Kid's Linen Bermuda;Linen Sand;4/6 ans;92186;92182;0;;SP709_92186_92182;3663938576800
@@ -929,8 +929,8 @@ SP709;Kid's Linen Bermuda;Navy Blue;10/12 ans;92187;92185;16;;SP709_92187_92185;
 SP710;Men's Linen Trousers;Linen Sand;36 FR;92196;92188;152;;SP710_92196_92188;3663938576879
 SP710;Men's Linen Trousers;Linen Sand;38 FR;92196;92189;58;;SP710_92196_92189;3663938576886
 SP710;Men's Linen Trousers;Linen Sand;40 FR;92196;92190;343;;SP710_92196_92190;3663938576893
-SP710;Men's Linen Trousers;Linen Sand;42 FR;92196;92191;317;;SP710_92196_92191;3663938576909
-SP710;Men's Linen Trousers;Linen Sand;44 FR;92196;92192;379;;SP710_92196_92192;3663938576916
+SP710;Men's Linen Trousers;Linen Sand;42 FR;92196;92191;316;;SP710_92196_92191;3663938576909
+SP710;Men's Linen Trousers;Linen Sand;44 FR;92196;92192;378;;SP710_92196_92192;3663938576916
 SP710;Men's Linen Trousers;Linen Sand;46 FR;92196;92193;176;;SP710_92196_92193;3663938576923
 SP710;Men's Linen Trousers;Linen Sand;48 FR;92196;92194;97;;SP710_92196_92194;3663938576930
 SP710;Men's Linen Trousers;Linen Sand;50 FR;92196;92195;18;;SP710_92196_92195;3663938576947
@@ -1050,7 +1050,7 @@ SP729;Eco-friendly Men's Terry Towel Short;Navy Blue;S;94239;94232;92;;SP729_942
 SP729;Eco-friendly Men's Terry Towel Short;Navy Blue;M;94239;94233;211;;SP729_94239_94233;3663639144759
 SP729;Eco-friendly Men's Terry Towel Short;Navy Blue;L;94239;94234;209;;SP729_94239_94234;3663639144742
 SP729;Eco-friendly Men's Terry Towel Short;Navy Blue;XL;94239;94235;92;;SP729_94239_94235;3663639144773
-SP729;Eco-friendly Men's Terry Towel Short;Navy Blue;XXL;94239;94236;29;;SP729_94239_94236;3663639144780
+SP729;Eco-friendly Men's Terry Towel Short;Navy Blue;XXL;94239;94236;28;;SP729_94239_94236;3663639144780
 SP729;Eco-friendly Men's Terry Towel Short;White;S;94240;94232;95;;SP729_94240_94232;3663639144810
 SP729;Eco-friendly Men's Terry Towel Short;White;M;94240;94233;220;;SP729_94240_94233;3663639144803
 SP729;Eco-friendly Men's Terry Towel Short;White;L;94240;94234;226;;SP729_94240_94234;3663639144797
@@ -1117,7 +1117,7 @@ SP742;Eco-friendly men's corduroy shorts;Pale Khaki;46 FR;89490;89485;121;;SP742
 SP742;Eco-friendly men's corduroy shorts;Pale Khaki;48 FR;89490;89486;56;;SP742_89490_89486;3663639130226
 SP742;Eco-friendly men's corduroy shorts;Pale Khaki;50 FR;89490;89487;51;;SP742_89490_89487;3663639130257
 SP743;Eco-friendly men's corduroy trousers;Dark camel;38 FR;89498;89491;285;;SP743_89498_89491;3663639130264
-SP743;Eco-friendly men's corduroy trousers;Dark camel;40 FR;89498;89492;436;;SP743_89498_89492;3663639130295
+SP743;Eco-friendly men's corduroy trousers;Dark camel;40 FR;89498;89492;435;;SP743_89498_89492;3663639130295
 SP743;Eco-friendly men's corduroy trousers;Dark camel;42 FR;89498;89493;560;;SP743_89498_89493;3663639130325
 SP743;Eco-friendly men's corduroy trousers;Dark camel;44 FR;89498;89494;328;;SP743_89498_89494;3663639130356
 SP743;Eco-friendly men's corduroy trousers;Dark camel;46 FR;89498;89495;213;;SP743_89498_89495;3663639130387
@@ -1125,7 +1125,7 @@ SP743;Eco-friendly men's corduroy trousers;Dark camel;48 FR;89498;89496;107;;SP7
 SP743;Eco-friendly men's corduroy trousers;Dark camel;50 FR;89498;89497;93;;SP743_89498_89497;3663639130448
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;38 FR;89499;89491;287;;SP743_89499_89491;3663639130271
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;40 FR;89499;89492;447;;SP743_89499_89492;3663639130301
-SP743;Eco-friendly men's corduroy trousers;Navy Blue;42 FR;89499;89493;568;;SP743_89499_89493;3663639130332
+SP743;Eco-friendly men's corduroy trousers;Navy Blue;42 FR;89499;89493;567;;SP743_89499_89493;3663639130332
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;44 FR;89499;89494;336;;SP743_89499_89494;3663639130363
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;46 FR;89499;89495;222;;SP743_89499_89495;3663639130394
 SP743;Eco-friendly men's corduroy trousers;Navy Blue;48 FR;89499;89496;111;;SP743_89499_89496;3663639130424
@@ -1134,7 +1134,7 @@ SP743;Eco-friendly men's corduroy trousers;Pale Khaki;38 FR;89500;89491;307;;SP7
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;40 FR;89500;89492;447;;SP743_89500_89492;3663639130318
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;42 FR;89500;89493;528;;SP743_89500_89493;3663639130349
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;44 FR;89500;89494;325;;SP743_89500_89494;3663639130370
-SP743;Eco-friendly men's corduroy trousers;Pale Khaki;46 FR;89500;89495;195;;SP743_89500_89495;3663639130400
+SP743;Eco-friendly men's corduroy trousers;Pale Khaki;46 FR;89500;89495;215;;SP743_89500_89495;3663639130400
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;48 FR;89500;89496;111;;SP743_89500_89496;3663639130431
 SP743;Eco-friendly men's corduroy trousers;Pale Khaki;50 FR;89500;89497;98;;SP743_89500_89497;3663639130462
 SP800;Eco-friendly unisex socks;Almond Green;39/41 EU;92247;92244;20;;SP800_92247_92244;3663938282183
@@ -1165,7 +1165,7 @@ SP800;Eco-friendly unisex socks;Cool Blue Heather;39/41 EU;92255;92244;110;;SP80
 SP800;Eco-friendly unisex socks;Cool Blue Heather;41/43 EU;92255;92245;99;;SP800_92255_92245;3663938282404
 SP800;Eco-friendly unisex socks;Cool Blue Heather;43/45 EU;92255;92246;125;;SP800_92255_92246;3663938282411
 SP800;Eco-friendly unisex socks;Curcuma;39/41 EU;92256;92244;84;;SP800_92256_92244;3663938282459
-SP800;Eco-friendly unisex socks;Curcuma;41/43 EU;92256;92245;58;;SP800_92256_92245;3663938282466
+SP800;Eco-friendly unisex socks;Curcuma;41/43 EU;92256;92245;57;;SP800_92256_92245;3663938282466
 SP800;Eco-friendly unisex socks;Curcuma;43/45 EU;92256;92246;95;;SP800_92256_92246;3663938282473
 SP800;Eco-friendly unisex socks;Dark Cherry;39/41 EU;92257;92244;70;;SP800_92257_92244;3663938282480
 SP800;Eco-friendly unisex socks;Dark Cherry;41/43 EU;92257;92245;46;;SP800_92257_92245;3663938282497
@@ -1174,7 +1174,7 @@ SP800;Eco-friendly unisex socks;Deep Plum;39/41 EU;92258;92244;100;;SP800_92258_
 SP800;Eco-friendly unisex socks;Deep Plum;41/43 EU;92258;92245;99;;SP800_92258_92245;3663938282527
 SP800;Eco-friendly unisex socks;Deep Plum;43/45 EU;92258;92246;91;;SP800_92258_92246;3663938282534
 SP800;Eco-friendly unisex socks;Green field;39/41 EU;92259;92244;0;;SP800_92259_92244;3663938282541
-SP800;Eco-friendly unisex socks;Green field;41/43 EU;92259;92245;11;;SP800_92259_92245;3663938282558
+SP800;Eco-friendly unisex socks;Green field;41/43 EU;92259;92245;10;;SP800_92259_92245;3663938282558
 SP800;Eco-friendly unisex socks;Green field;43/45 EU;92259;92246;77;;SP800_92259_92246;3663938282565
 SP800;Eco-friendly unisex socks;Grizzly Brown Heather;39/41 EU;92260;92244;91;;SP800_92260_92244;3663938282572
 SP800;Eco-friendly unisex socks;Grizzly Brown Heather;41/43 EU;92260;92245;68;;SP800_92260_92245;3663938282589
@@ -1186,7 +1186,7 @@ SP800;Eco-friendly unisex socks;Iron Grey;39/41 EU;92262;92244;303;;SP800_92262_
 SP800;Eco-friendly unisex socks;Iron Grey;41/43 EU;92262;92245;459;;SP800_92262_92245;3663938282640
 SP800;Eco-friendly unisex socks;Iron Grey;43/45 EU;92262;92246;410;;SP800_92262_92246;3663938282657
 SP800;Eco-friendly unisex socks;Ivory;39/41 EU;92263;92244;0;;SP800_92263_92244;3663938282664
-SP800;Eco-friendly unisex socks;Ivory;41/43 EU;92263;92245;3;;SP800_92263_92245;3663938282671
+SP800;Eco-friendly unisex socks;Ivory;41/43 EU;92263;92245;2;;SP800_92263_92245;3663938282671
 SP800;Eco-friendly unisex socks;Ivory;43/45 EU;92263;92246;53;;SP800_92263_92246;3663938282688
 SP800;Eco-friendly unisex socks;Jade Green;39/41 EU;92264;92244;0;;SP800_92264_92244;3663938282695
 SP800;Eco-friendly unisex socks;Jade Green;41/43 EU;92264;92245;14;;SP800_92264_92245;3663938282701
@@ -1200,7 +1200,7 @@ SP800;Eco-friendly unisex socks;Mineral Grey;43/45 EU;92266;92246;116;;SP800_922
 SP800;Eco-friendly unisex socks;Moon Grey Heather;39/41 EU;92267;92244;32;;SP800_92267_92244;3663938282787
 SP800;Eco-friendly unisex socks;Moon Grey Heather;41/43 EU;92267;92245;24;;SP800_92267_92245;3663938282794
 SP800;Eco-friendly unisex socks;Moon Grey Heather;43/45 EU;92267;92246;93;;SP800_92267_92246;3663938282800
-SP800;Eco-friendly unisex socks;Navy Blue;39/41 EU;92268;92244;379;;SP800_92268_92244;3663938282848
+SP800;Eco-friendly unisex socks;Navy Blue;39/41 EU;92268;92244;378;;SP800_92268_92244;3663938282848
 SP800;Eco-friendly unisex socks;Navy Blue;41/43 EU;92268;92245;333;;SP800_92268_92245;3663938282855
 SP800;Eco-friendly unisex socks;Navy Blue;43/45 EU;92268;92246;305;;SP800_92268_92246;3663938282862
 SP800;Eco-friendly unisex socks;Navy Blue Heather;39/41 EU;92269;92244;0;;SP800_92269_92244;3663938282817
@@ -1284,11 +1284,11 @@ SP901;Men's jumper with polo collar;Organic Khaki;M;94222;94216;73;;SP901_94222_
 SP901;Men's jumper with polo collar;Organic Khaki;L;94222;94217;77;;SP901_94222_94217;3663938718361
 SP901;Men's jumper with polo collar;Organic Khaki;XL;94222;94218;12;;SP901_94222_94218;3663938718392
 SP901;Men's jumper with polo collar;Organic Khaki;XXL;94222;94219;0;;SP901_94222_94219;3663938718422
-SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;S;91967;91961;15;;SP906_91967_91961;3663938326757
-SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;M;91967;91962;85;;SP906_91967_91962;3663938326740
-SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;L;91967;91963;309;;SP906_91967_91963;3663938326733
-SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;XL;91967;91964;3;;SP906_91967_91964;3663938326764
-SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;XXL;91967;91965;112;;SP906_91967_91965;3663938326771
+SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;S;91967;91961;13;;SP906_91967_91961;3663938326757
+SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;M;91967;91962;82;;SP906_91967_91962;3663938326740
+SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;L;91967;91963;306;;SP906_91967_91963;3663938326733
+SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;XL;91967;91964;0;;SP906_91967_91964;3663938326764
+SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;XXL;91967;91965;110;;SP906_91967_91965;3663938326771
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Beige Sand Heather;3XL;91967;91966;155;;SP906_91967_91966;3663938326726
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Navy Blue;S;91968;91961;41;;SP906_91968_91961;3663938326818
 SP906;Eco-friendly Men's Lyocell Full zip Hooded Jumper;Navy Blue;M;91968;91962;106;;SP906_91968_91962;3663938326801
@@ -1322,7 +1322,7 @@ SP921;Eco-friendly ladies’ V-neck lyocell jumper;Navy Blue;XL;91978;91973;84;;SP
 SP921;Eco-friendly ladies’ V-neck lyocell jumper;Navy Blue;XXL;91978;91974;119;;SP921_91978_91974;3663938327655
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;XS;91985;91979;95;;SP922_91985_91979;3663938327709
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;S;91985;91980;75;;SP922_91985_91980;3663938327686
-SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;M;91985;91981;149;;SP922_91985_91981;3663938327679
+SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;M;91985;91981;148;;SP922_91985_91981;3663938327679
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;L;91985;91982;147;;SP922_91985_91982;3663938327662
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;XL;91985;91983;52;;SP922_91985_91983;3663938327693
 SP922;Eco-friendly Ladies' Lyocell V Neck Jumper;Black;XXL;91985;91984;114;;SP922_91985_91984;3663938327716
