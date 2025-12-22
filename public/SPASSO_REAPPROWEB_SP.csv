@@ -1,5 +1,5 @@
 REF;DESIGNATION;COLOR;SIZE;COLOR CODE;SIZE CODE;DATE TO RECEIVE;QUANTITY;BARCODE;SKU;GS1_EAN13
-SP122;Linen shopping bag;Wet Sand;One Size;91636;91630;19/12/2025;800;;SP122_91636_91630;3663938365411
+SP122;Linen shopping bag;Wet Sand;One Size;91636;91630;;800;;SP122_91636_91630;3663938365411
 SP132;Jute shopping bag;Natural;One Size;91638;91637;;2000;;SP132_91638_91637;3663938365428
 SP203;Eco-friendly men's knitted polo shirt;Almond Green;M;88703;13096;06/02/2026;420;;SP203_88703_13096;3663938621869
 SP203;Eco-friendly men's knitted polo shirt;Almond Green;L;88703;13097;06/02/2026;240;;SP203_88703_13097;3663938621876
@@ -136,24 +136,28 @@ SP343;Ladies' linen tank top;Ivory;L;91711;91708;12/02/2026;118;;SP343_91711_917
 SP343;Ladies' linen tank top;Organic Khaki;S;91712;91706;12/02/2026;220;;SP343_91712_91706;3663938621371
 SP343;Ladies' linen tank top;Organic Khaki;M;91712;91707;12/02/2026;210;;SP343_91712_91707;3663938621364
 SP343;Ladies' linen tank top;Organic Khaki;L;91712;91708;12/02/2026;97;;SP343_91712_91708;3663938621357
-SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;XS;96264;96257;19/12/2025;340;;SP403_96264_96257;3663639145176
+SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;XS;96264;96257;;340;;SP403_96264_96257;3663639145176
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;S;96264;96258;22/12/2025;800;;SP403_96264_96258;3663639145152
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;L;96264;96260;22/12/2025;1174;;SP403_96264_96260;3663639145138
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;XL;96264;96261;22/12/2025;580;;SP403_96264_96261;3663639145169
-SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;XXL;96264;96262;19/12/2025;223;;SP403_96264_96262;3663639145183
-SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;3XL;96264;96263;19/12/2025;140;;SP403_96264_96263;3663639145121
+SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;XXL;96264;96262;;223;;SP403_96264_96262;3663639145183
+SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Black;3XL;96264;96263;;140;;SP403_96264_96263;3663639145121
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Wet Sand;M;96268;96259;22/12/2025;1460;;SP403_96268_96259;3663639148870
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Wet Sand;L;96268;96260;22/12/2025;1220;;SP403_96268_96260;3663639148863
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Wet Sand;XL;96268;96261;22/12/2025;640;;SP403_96268_96261;3663639148894
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Wet Sand;XXL;96268;96262;22/12/2025;350;;SP403_96268_96262;3663639148917
 SP403;Unisex sherpa dropped shoulders quarter zip sweatshirt;Wet Sand;3XL;96268;96263;22/12/2025;180;;SP403_96268_96263;3663639148856
-SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Black;XS;96680;96673;19/12/2025;700;;SP404_96680_96673;3663639145381
+SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Black;XS;96680;96673;;700;;SP404_96680_96673;3663639145381
 SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Black;M;96680;96675;22/12/2025;2900;;SP404_96680_96675;3663639145350
-SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Forest Khaki;XS;96681;96673;19/12/2025;560;;SP404_96681_96673;3663639148979
+SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Forest Khaki;XS;96681;96673;;560;;SP404_96681_96673;3663639148979
 SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Forest Khaki;XXL;96681;96678;22/12/2025;430;;SP404_96681_96678;3663639148986
-SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;XS;96684;96673;19/12/2025;740;;SP404_96684_96673;3663639149044
+SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;XS;96684;96673;;740;;SP404_96684_96673;3663639149044
 SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;S;96684;96674;22/12/2025;1570;;SP404_96684_96674;3663639149020
+SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;M;96684;96675;22/12/2025;2830;;SP404_96684_96675;3663639149013
+SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;L;96684;96676;22/12/2025;2406;;SP404_96684_96676;3663639149006
+SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;XL;96684;96677;22/12/2025;1210;;SP404_96684_96677;3663639149037
 SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;XXL;96684;96678;22/12/2025;500;;SP404_96684_96678;3663639149051
+SP404;Unisex sherpa dropped shoulders full zip sweatshirt;Wet Sand;3XL;96684;96679;22/12/2025;230;;SP404_96684_96679;3663639148993
 SP5008;Ladies' linen dress shirt;Organic Khaki;XS;92088;92083;17/03/2026;50;;SP5008_92088_92083;3663938624396
 SP5008;Ladies' linen dress shirt;Organic Khaki;S;92088;92084;17/03/2026;368;;SP5008_92088_92084;3663938624389
 SP5008;Ladies' linen dress shirt;Organic Khaki;M;92088;92085;17/03/2026;400;;SP5008_92088_92085;3663938624372
@@ -265,6 +269,7 @@ SP508;Unisex sherpa dropped shoulders overshirt;Black;3XL;94062;94061;22/12/2025
 SP508;Unisex sherpa dropped shoulders overshirt;Forest Khaki;XS;96277;94055;22/12/2025;140;;SP508_96277_94055;3663639149112
 SP508;Unisex sherpa dropped shoulders overshirt;Forest Khaki;M;96277;94057;22/12/2025;600;;SP508_96277_94057;3663639149082
 SP508;Unisex sherpa dropped shoulders overshirt;Forest Khaki;3XL;96277;94061;22/12/2025;140;;SP508_96277_94061;3663639149068
+SP508;Unisex sherpa dropped shoulders overshirt;Wet Sand;M;96278;94057;22/12/2025;782;;SP508_96278_94057;3663639149150
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;XS;92132;92125;17/03/2026;32;;SP509_92132_92125;3663938577715
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;S;92132;92126;17/03/2026;376;;SP509_92132_92126;3663938577692
 SP509;Men's linen bowling collar short-sleeved shirt;Linen;M;92132;92127;17/03/2026;574;;SP509_92132_92127;3663938577685
@@ -278,20 +283,20 @@ SP509;Men's linen bowling collar short-sleeved shirt;Linen Blue;L;92133;92128;17
 SP509;Men's linen bowling collar short-sleeved shirt;Linen Blue;XL;92133;92129;17/03/2026;159;;SP509_92133_92129;3663938577630
 SP509;Men's linen bowling collar short-sleeved shirt;Linen Blue;XXL;92133;92130;17/03/2026;100;;SP509_92133_92130;3663938577654
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;S;89455;89450;08/01/2026;226;;SP522_89455_89450;3663938622705
-SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;M;89455;89451;;500;;SP522_89455_89451;3663938622729
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;M;89455;89451;08/01/2026;352;;SP522_89455_89451;3663938622729
-SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;L;89455;89452;;575;;SP522_89455_89452;3663938622743
+SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;M;89455;89451;30/06/2026;500;;SP522_89455_89451;3663938622729
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;L;89455;89452;08/01/2026;353;;SP522_89455_89452;3663938622743
-SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;XL;89455;89453;;425;;SP522_89455_89453;3663938622767
+SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;L;89455;89452;30/06/2026;575;;SP522_89455_89452;3663938622743
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;XL;89455;89453;08/01/2026;251;;SP522_89455_89453;3663938622767
+SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;XL;89455;89453;30/06/2026;425;;SP522_89455_89453;3663938622767
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Cream Coffee;XXL;89455;89454;08/01/2026;150;;SP522_89455_89454;3663938622781
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;S;89456;89450;08/01/2026;250;;SP522_89456_89450;3663938622712
-SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;M;89456;89451;;600;;SP522_89456_89451;3663938622736
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;M;89456;89451;08/01/2026;422;;SP522_89456_89451;3663938622736
-SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;L;89456;89452;;500;;SP522_89456_89452;3663938622750
+SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;M;89456;89451;30/06/2026;600;;SP522_89456_89451;3663938622736
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;L;89456;89452;08/01/2026;400;;SP522_89456_89452;3663938622750
-SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;XL;89456;89453;;425;;SP522_89456_89453;3663938622774
+SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;L;89456;89452;30/06/2026;500;;SP522_89456_89452;3663938622750
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;XL;89456;89453;08/01/2026;284;;SP522_89456_89453;3663938622774
+SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;XL;89456;89453;30/06/2026;425;;SP522_89456_89453;3663938622774
 SP522;Eco-friendly men's jersey washed effect bowling collar short-sleeved shirt;Washed Organic Khaki;XXL;89456;89454;08/01/2026;125;;SP522_89456_89454;3663938622798
 SP600;Men's washed effect linen blazer;Washed Linen Brown;48 FR;98195;98187;19/02/2026;113;;SP600_98195_98187;3663639150729
 SP600;Men's washed effect linen blazer;Washed Linen Brown;48 FR;98195;98187;02/03/2026;7;;SP600_98195_98187;3663639150729
@@ -327,8 +332,8 @@ SP603;Men's sherpa vest;Black;L;94071;94067;22/12/2025;2930;;SP603_94071_94067;3
 SP603;Men's sherpa vest;Black;XL;94071;94068;22/12/2025;1286;;SP603_94071_94068;3663639145794
 SP603;Men's sherpa vest;Black;3XL;94071;94070;22/12/2025;240;;SP603_94071_94070;3663639145756
 SP603;Men's sherpa vest;Forest Khaki;S;96279;94065;22/12/2025;970;;SP603_96279_94065;3663639149235
-SP603;Men's sherpa vest;Forest Khaki;M;96279;94066;19/12/2025;2130;;SP603_96279_94066;3663639149228
-SP603;Men's sherpa vest;Forest Khaki;XL;96279;94068;19/12/2025;910;;SP603_96279_94068;3663639149242
+SP603;Men's sherpa vest;Forest Khaki;M;96279;94066;;2130;;SP603_96279_94066;3663639149228
+SP603;Men's sherpa vest;Forest Khaki;XL;96279;94068;;910;;SP603_96279_94068;3663639149242
 SP603;Men's sherpa vest;Wet Sand;S;96280;94065;22/12/2025;1330;;SP603_96280_94065;3663639149297
 SP603;Men's sherpa vest;Wet Sand;M;96280;94066;22/12/2025;2960;;SP603_96280_94066;3663639149280
 SP603;Men's sherpa vest;Wet Sand;L;96280;94067;22/12/2025;2841;;SP603_96280_94067;3663639149273
@@ -336,7 +341,7 @@ SP603;Men's sherpa vest;Wet Sand;XL;96280;94068;22/12/2025;1280;;SP603_96280_940
 SP603;Men's sherpa vest;Wet Sand;XXL;96280;94069;22/12/2025;660;;SP603_96280_94069;3663639149310
 SP603;Men's sherpa vest;Wet Sand;3XL;96280;94070;22/12/2025;230;;SP603_96280_94070;3663639149266
 SP604;Ladies' sherpa vest;Black;XS;94079;94074;22/12/2025;300;;SP604_94079_94074;3663639145978
-SP604;Ladies' sherpa vest;Black;M;94079;94076;19/12/2025;579;;SP604_94079_94076;3663639145947
+SP604;Ladies' sherpa vest;Black;M;94079;94076;;579;;SP604_94079_94076;3663639145947
 SP604;Ladies' sherpa vest;Black;XL;94079;94078;22/12/2025;120;;SP604_94079_94078;3663639145961
 SP604;Ladies' sherpa vest;Forest Khaki;S;96281;94075;22/12/2025;565;;SP604_96281_94075;3663639149341
 SP604;Ladies' sherpa vest;Forest Khaki;M;96281;94076;22/12/2025;606;;SP604_96281_94076;3663639149334
