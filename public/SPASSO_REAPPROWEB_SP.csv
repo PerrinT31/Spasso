@@ -61,7 +61,7 @@ SP203;Eco-friendly men's knitted polo shirt;Navy Blue;XXL;88704;13099;15/01/2027
 SP203;Eco-friendly men's knitted polo shirt;Navy Blue;S;88704;88702;15/01/2027;180;;SP203_88704_88702;3663938621951
 SP203;Eco-friendly men's knitted polo shirt;Ivory;M;90969;13096;15/01/2027;330;;SP203_90969_13096;3663938662534
 SP203;Eco-friendly men's knitted polo shirt;Ivory;L;90969;13097;15/01/2027;330;;SP203_90969_13097;3663938662541
-SP203;Eco-friendly men's knitted polo shirt;Ivory;XL;90969;13098;15/01/2027;533;;SP203_90969_13098;3663938662558
+SP203;Eco-friendly men's knitted polo shirt;Ivory;XL;90969;13098;15/01/2027;532;;SP203_90969_13098;3663938662558
 SP203;Eco-friendly men's knitted polo shirt;Ivory;XXL;90969;13099;15/01/2027;60;;SP203_90969_13099;3663938662565
 SP203;Eco-friendly men's knitted polo shirt;Ivory;S;90969;88702;15/01/2027;270;;SP203_90969_88702;3663938662572
 SP203;Eco-friendly men's knitted polo shirt;Organic Khaki;M;90970;13096;15/01/2027;240;;SP203_90970_13096;3663938662589
@@ -88,7 +88,7 @@ SP304;Eco-friendly ladies' oversize slub t-shirt;Black;XS;93565;93559;22/10/2026
 SP304;Eco-friendly ladies' oversize slub t-shirt;Black;S;93565;93560;22/10/2026;300;;SP304_93565_93560;3663938718996
 SP304;Eco-friendly ladies' oversize slub t-shirt;Black;M;93565;93561;22/10/2026;350;;SP304_93565_93561;3663938719023
 SP304;Eco-friendly ladies' oversize slub t-shirt;Black;L;93565;93562;22/10/2026;350;;SP304_93565_93562;3663938719054
-SP304;Eco-friendly ladies' oversize slub t-shirt;Black;XL;93565;93563;22/10/2026;180;;SP304_93565_93563;3663938719085
+SP304;Eco-friendly ladies' oversize slub t-shirt;Black;XL;93565;93563;22/10/2026;178;;SP304_93565_93563;3663938719085
 SP304;Eco-friendly ladies' oversize slub t-shirt;White;XS;93566;93559;22/10/2026;400;;SP304_93566_93559;3663938718972
 SP304;Eco-friendly ladies' oversize slub t-shirt;White;S;93566;93560;22/10/2026;550;;SP304_93566_93560;3663938719009
 SP304;Eco-friendly ladies' oversize slub t-shirt;White;M;93566;93561;22/10/2026;300;;SP304_93566_93561;3663938719030
@@ -230,13 +230,13 @@ SP604;Ladies' sherpa vest;Forest Khaki;XL;96281;94078;29/06/2026;68;;SP604_96281
 SP604;Ladies' sherpa vest;Forest Khaki;XL;96281;94078;05/10/2026;100;;SP604_96281_94078;3663639149358
 SP604;Ladies' sherpa vest;Wet Sand;XS;96282;94074;05/10/2026;534;;SP604_96282_94074;3663639149419
 SP604;Ladies' sherpa vest;Wet Sand;XS;96282;94074;24/12/2026;590;;SP604_96282_94074;3663639149419
-SP604;Ladies' sherpa vest;Wet Sand;S;96282;94075;05/10/2026;1236;;SP604_96282_94075;3663639149396
+SP604;Ladies' sherpa vest;Wet Sand;S;96282;94075;05/10/2026;1234;;SP604_96282_94075;3663639149396
 SP604;Ladies' sherpa vest;Wet Sand;S;96282;94075;24/12/2026;820;;SP604_96282_94075;3663639149396
-SP604;Ladies' sherpa vest;Wet Sand;M;96282;94076;05/10/2026;1087;;SP604_96282_94076;3663639149389
+SP604;Ladies' sherpa vest;Wet Sand;M;96282;94076;05/10/2026;1085;;SP604_96282_94076;3663639149389
 SP604;Ladies' sherpa vest;Wet Sand;M;96282;94076;24/12/2026;950;;SP604_96282_94076;3663639149389
-SP604;Ladies' sherpa vest;Wet Sand;L;96282;94077;05/10/2026;590;;SP604_96282_94077;3663639149372
+SP604;Ladies' sherpa vest;Wet Sand;L;96282;94077;05/10/2026;587;;SP604_96282_94077;3663639149372
 SP604;Ladies' sherpa vest;Wet Sand;L;96282;94077;24/12/2026;480;;SP604_96282_94077;3663639149372
-SP604;Ladies' sherpa vest;Wet Sand;XL;96282;94078;05/10/2026;238;;SP604_96282_94078;3663639149402
+SP604;Ladies' sherpa vest;Wet Sand;XL;96282;94078;05/10/2026;236;;SP604_96282_94078;3663639149402
 SP604;Ladies' sherpa vest;Wet Sand;XL;96282;94078;24/12/2026;300;;SP604_96282_94078;3663639149402
 SP706;Eco-friendly men's striped swim short;White / Iron Grey Stripes;S;99707;99702;23/09/2026;146;;SP706_99707_99702;3663639152037
 SP706;Eco-friendly men's striped swim short;White / Iron Grey Stripes;M;99707;99703;23/09/2026;394;;SP706_99707_99703;3663639152051
@@ -250,17 +250,10 @@ SP706;Eco-friendly men's striped swim short;White / Navy Blue Stripes;L;99708;99
 SP706;Eco-friendly men's striped swim short;White / Navy Blue Stripes;XL;99708;99705;23/09/2026;345;;SP706_99708_99705;3663639152112
 SP706;Eco-friendly men's striped swim short;White / Navy Blue Stripes;XXL;99708;99706;23/09/2026;97;;SP706_99708_99706;3663639152129
 SP706;Eco-friendly men's striped swim short;White / Navy Blue Stripes;3XL;99708;100032;23/09/2026;50;;SP706_99708_100032;3663639154697
-SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;S;92180;92174;06/07/2026;320;;SP708_92180_92174;3663938328409
-SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;M;92180;92175;29/06/2026;60;;SP708_92180_92175;3663938328393
-SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;M;92180;92175;06/07/2026;314;;SP708_92180_92175;3663938328393
-SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;L;92180;92176;29/06/2026;30;;SP708_92180_92176;3663938328386
-SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;L;92180;92176;06/07/2026;420;;SP708_92180_92176;3663938328386
-SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;XL;92180;92177;06/07/2026;144;;SP708_92180_92177;3663938328416
-SP708;Eco-friendly men's linen and organic cotton trousers;Navy Blue;XXL;92180;92178;06/07/2026;26;;SP708_92180_92178;3663938328430
 SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;XS;92181;92173;29/06/2026;40;;SP708_92181_92173;3663938328492
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;S;92181;92174;29/06/2026;96;;SP708_92181_92174;3663938328478
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;M;92181;92175;29/06/2026;48;;SP708_92181_92175;3663938328461
-SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;L;92181;92176;29/06/2026;285;;SP708_92181_92176;3663938328454
+SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;S;92181;92174;29/06/2026;95;;SP708_92181_92174;3663938328478
+SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;M;92181;92175;29/06/2026;47;;SP708_92181_92175;3663938328461
+SP708;Eco-friendly men's linen and organic cotton trousers;Wet Sand;L;92181;92176;29/06/2026;264;;SP708_92181_92176;3663938328454
 SP708;Eco-friendly men's linen and organic cotton trousers;White;XS;99709;92173;24/07/2026;94;;SP708_99709_92173;3663639157216
 SP708;Eco-friendly men's linen and organic cotton trousers;White;S;99709;92174;24/07/2026;260;;SP708_99709_92174;3663639157193
 SP708;Eco-friendly men's linen and organic cotton trousers;White;M;99709;92175;24/07/2026;540;;SP708_99709_92175;3663639157186
@@ -268,7 +261,8 @@ SP708;Eco-friendly men's linen and organic cotton trousers;White;L;99709;92176;2
 SP708;Eco-friendly men's linen and organic cotton trousers;White;XL;99709;92177;24/07/2026;280;;SP708_99709_92177;3663639157209
 SP708;Eco-friendly men's linen and organic cotton trousers;White;XXL;99709;92178;24/07/2026;171;;SP708_99709_92178;3663639157223
 SP708;Eco-friendly men's linen and organic cotton trousers;White;3XL;99709;92179;24/07/2026;78;;SP708_99709_92179;3663639157162
-SP713;Ladies' Linen Short;White;34 FR;92292;92285;29/06/2026;218;;SP713_92292_92285;3663938577531
+SP713;Ladies' Linen Short;White;34 FR;92292;92285;29/06/2026;217;;SP713_92292_92285;3663938577531
+SP713;Ladies' Linen Short;White;36 FR;92292;92286;29/06/2026;480;;SP713_92292_92286;3663938577548
 SP713;Ladies' Linen Short;White;38 FR;92292;92287;25/06/2026;480;;SP713_92292_92287;3663938577555
 SP713;Ladies' Linen Short;White;40 FR;92292;92288;25/06/2026;220;;SP713_92292_92288;3663938577562
 SP713;Ladies' Linen Short;White;42 FR;92292;92289;26/06/2026;80;;SP713_92292_92289;3663938577579
@@ -297,7 +291,7 @@ SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Navy Blue;42 
 SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Navy Blue;44 FR;99732;99729;15/09/2026;290;;SP746_99732_99729;3663639151825
 SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Navy Blue;46 FR;99732;99730;15/09/2026;76;;SP746_99732_99730;3663639151832
 SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Navy Blue;48 FR;99732;99731;15/09/2026;40;;SP746_99732_99731;3663639151849
-SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Ivory;38 FR;102676;99726;15/09/2026;174;;SP746_102676_99726;3663639157865
+SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Ivory;38 FR;102676;99726;15/09/2026;173;;SP746_102676_99726;3663639157865
 SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Ivory;40 FR;102676;99727;15/09/2026;390;;SP746_102676_99727;3663639157872
 SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Ivory;42 FR;102676;99728;15/09/2026;430;;SP746_102676_99728;3663639157889
 SP746;Eco-friendly men's French Terry washed effect bermuda;Washed Ivory;44 FR;102676;99729;15/09/2026;330;;SP746_102676_99729;3663639157896
